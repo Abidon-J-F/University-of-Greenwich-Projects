@@ -20,7 +20,7 @@ import javax.swing.JMenuItem;
 
 /**
  *
- * @author Abidon
+ * @author Abidon-J-F
  *
  */
 public class CommonCode {
@@ -163,13 +163,10 @@ public class CommonCode {
     // directory.  Use fileSeperator if the app may be running under a 
     // different OS.
     /**
-     * Change the contents of text file in its entirety, overwriting any
-     * existing text.
-     *
      * @param fn
      * @param aContents
      * @throws java.io.FileNotFoundException
-     */
+     **/
     public void writeTextFile(String fn, ArrayList<String> outputText)
             throws FileNotFoundException, IOException {
 
