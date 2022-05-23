@@ -20,7 +20,7 @@ import javax.swing.JMenuItem;
 
 /**
  *
- * @author Abidon
+ * @author Abidon-J-F
  *
  */
 public class CommonCode {
@@ -39,7 +39,6 @@ public class CommonCode {
     public String ukDate;
     public String usDate;
 
-    // These are some useful items.
     public final String userName = System.getProperty("user.name");
     public final String appDir = System.getProperty("user.dir");
     public final String os = System.getProperty("os.name");
@@ -56,7 +55,7 @@ public class CommonCode {
         initialiseVariables();
     }
 
-    // This is used by CommonCode to set up the public variables.
+    // Set up the public variables.
     private void initialiseVariables() {
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat o1sdf = new SimpleDateFormat(ORDERED_DATE_TIME_FORMAT_NOW);
@@ -163,9 +162,6 @@ public class CommonCode {
     // directory.  Use fileSeperator if the app may be running under a 
     // different OS.
     /**
-     * Change the contents of text file in its entirety, overwriting any
-     * existing text.
-     *
      * @param fn
      * @param aContents
      * @throws java.io.FileNotFoundException
