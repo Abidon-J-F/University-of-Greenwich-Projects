@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package coursework;
 
 import java.awt.BorderLayout;
@@ -49,10 +44,8 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Abidon J Fernandes ID: 001013672
- */
-//Most of the Codes here are from Andy Wicks youtube lab tutorial video and from our Lab Work Session.
-//I will mention all the areas on who contributed what in our OOP Group work
+ * @author Abidon-J-F
+ **/
 public class Coursework extends JFrame implements ItemListener, MenuListener, ActionListener, KeyListener {
 
     CommonCode cc = new CommonCode(this);
@@ -135,7 +128,7 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
         JMenuBar menuBar = new JMenuBar();
         JMenu fyle = new JMenu();
 
-        // Abidon J Fernandes ID: 001013672 contributed to the creation of these fyle menubar
+        // Abidon-J-F contributed to the creation of these fyle menubar
         fyle.addActionListener(this);
         fyle = new JMenu("File");
         fyle.setToolTipText("File Option");
@@ -162,8 +155,8 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
         courze.add(cc.makeMenuItem("Delete Course", "DeleteCourse", "Delete a Course", fnt));
         menuBar.add(courze);
 
-//Creating a seperate menu for the coursework requirements
-//David Brittain ID: 001026553 contributed to this creation of a menubar and the link fot the coursework requirement
+//Created a seperate menu for the coursework requirements
+//David-B contributed to this creation of a menubar and the link for the coursework requirement
         JMenu CourseReq = new JMenu();
         CourseReq.addActionListener(this);
         CourseReq = new JMenu("Course Requirements");
@@ -173,8 +166,8 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
         CourseReq.add(cc.makeMenuItem("Course", "MATH1111", " NewCourse", fnt));
         menuBar.add(CourseReq);
 
-//                //Hackathon: 3 Display Coursework Deadlines for a chosen Module 
-//                or all modules by semester or by week. = Abidon J Fernandes ID: 001013672
+//Hackathon Task No 3: Display Coursework Deadlines for a chosen Module 
+//                or all the modules by semester or by week = Abidon-J-F
         JMenu Deadline = new JMenu();
         Deadline.addActionListener(this);
         Deadline = new JMenu("Check Deadlines");
@@ -211,7 +204,7 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
 
         JToolBar toolBar = new JToolBar();
 
-        // Abidon J Fernandes ID: 001013672 contributed to the creation of these three icon buttons
+        // Abidon-J-F ID contributed to the creation of these three icon buttons
         JButton button = null;
         button1 = cc.makeNavigationButton("Documents", "Open",
                 "Open a Note",
