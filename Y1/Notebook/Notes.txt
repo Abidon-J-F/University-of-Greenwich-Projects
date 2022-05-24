@@ -1,0 +1,16 @@
+1	COMP1752	2017-02-23 09:54:22	Java and JavaScript are not the same language.
+2	COMP1752	2017-02-23 09:54:22	Java uses specific data types such as int, float, boolean and String.
+3	COMP1752	2017-02-23 09:56:22	The four principles of object oriented programming are A PIE.
+4	COMP1752	2017-02-23 09:57:22	This stands for Abstraction, Polymorphism, Inheritance and Encapsulation.
+5	COMP1752	2017-02-23 09:58:22	Make sure that there is an IF block in actionPerformed() for each action that you want to trap.
+6	COMP1752	2017-02-23 09:59:22	Only copy the whole directory and NOT the .java files.
+7	COMP1752	2017-02-23 10:00:22	Start my coursework early and I should not expect a good mark if I don't.
+8	COMP1752	2017-02-23 10:01:22	Java is a compiled language.  It uses intermediate code.
+9	COMP1752	2017-02-23 10:02:22	A GUI inherits from JFrame using the keyword extends.
+10	COMP1752	2017-02-23 10:03:22	The CommonCode class is a good way to reuse code.
+11	COMP1752	2017-02-23 10:04:22	The CommonCode class should have constructors for Both GUI and non-GUI applications.
+12	COMP1752	2017-02-23 10:05:22	Use CommonCode cc = new CommonCode() for non-GUI applications.
+14	COMP1713	2019-03-22 19:20:58	Coursework Assignement
+16	COMP1713	2019-03-22 22:39:02	fdgdf
+18	COMP1713	2019-03-22 22:49:38	sfdsfdsfsffsd
+19	COMP1713	2019-03-22 22:49:46	ads

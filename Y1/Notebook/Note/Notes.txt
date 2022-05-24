@@ -1,0 +1,33 @@
+1	COMP1752	2017-02-23 09:54:22	Java and JavaScript are not the same language.
+2	COMP1752	2017-02-23 09:54:22	Java uses specific data types such as int, float, boolean and String.
+3	COMP1752	2017-02-23 09:56:22	The four principles of object oriented programming are A PIE.
+4	COMP1752	2017-02-23 09:57:22	This stands for Abstraction, Polymorphism, Inheritance and Encapsulation.
+5	COMP1752	2017-02-23 09:58:22	Make sure that there is an IF block in actionPerformed() for each action that you want to trap.
+6	COMP1752	2017-02-23 09:59:22	Only copy the whole directory and NOT the .java files.
+7	COMP1752	2017-02-23 10:00:22	Start my coursework early and I should not expect a good mark if I don't.
+8	COMP1752	2017-02-23 10:01:22	Java is a compiled language.  It uses intermediate code.
+9	COMP1752	2017-02-23 10:02:22	A GUI inherits from JFrame using the keyword extends.
+10	COMP1752	2017-02-23 10:03:22	The CommonCode class is a good way to reuse code.
+11	COMP1752	2017-02-23 10:04:22	The CommonCode class should have constructors for Both GUI and non-GUI applications.
+12	COMP1752	2017-02-23 10:05:22	Use CommonCode cc = new CommonCode() for non-GUI applications.
+14	COMP1713	2019-03-22 19:20:58	Coursework Assignement
+16	COMP1713	2019-03-22 22:39:02	fdgdf
+18	COMP1713	2019-03-22 22:46:35	adssaddas
+20	COMP1713	2019-03-22 22:52:15	errwr
+22	COMP1713	2019-03-22 22:54:31	sffsdfagdfads
+23	COMP1713	2019-03-22 22:54:40	sdfsfds
+25	COMP1752	2019-03-22 22:56:03	xvxcv
+27	COMP1752	2019-03-23 11:08:41	gjhg
+29	COMP1752	2019-03-23 11:42:57	dfs
+31	COMP1752	2019-03-23 11:47:05	sdf
+33	COMP1752	2019-03-23 17:43:50	dsds
+35	COMP1752	2019-03-24 15:13:52	ryyry
+37	COMP1752	2019-03-24 15:18:08	sffsdfsf
+39	COMP1752	2019-03-25 10:44:54	COMP1752 Coursework       
+41	COMP1752	2019-03-25 10:47:14	Work
+43	COMP1752	2019-03-25 10:50:34	atyt
+45	COMP1752	2019-03-25 11:00:29	MATH1111: Coursework = 50% due on 22nd March 2019; EXAM = 50% on the 1st of MAY 2019
+47	COMP1752	2019-03-25 11:17:51	werewr
+49	COMP1752	2019-03-25 11:25:27	Deadline Database System Development on 28 march 2019
+51	COMP1752	2019-03-25 11:28:04	asdsada
+53	COMP1752	2019-03-25 11:28:39	h
