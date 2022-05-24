@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package coursework;
 
 import java.awt.BorderLayout;
@@ -49,10 +44,9 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Abidon J Fernandes ID: 001013672
+ * @author Abidon Jude Fernandes
  */
-//Most of the Codes here are from Andy Wicks youtube lab tutorial video and from our Lab Work Session.
-//I will mention all the areas on who contributed what in our OOP Group work
+//Mention all the individuals in your group who contributed what part of this coursework project.
 public class Coursework extends JFrame implements ItemListener, MenuListener, ActionListener, KeyListener {
 
     CommonCode cc = new CommonCode(this);
@@ -70,13 +64,13 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
     String crse = "";
     AllNotes allNotes = new AllNotes();
 
-    // Abidon J Fernandes ID: 001013672 contributed to the creation of File Open Dialog, Save Note and Save As Dialog
+    // Abidon Jude Fernandes contributed to the creation of the File Open Dialog, Save Note and Save As Dialog box
     JButton button3 = new JButton("Save As");
     JButton button2 = new JButton("Save");
     JButton button1 = new JButton("Open");
 
     public static void main(String[] args) {
-        // This is required for the coursework.
+        // This is required for the coursework project.
         JOptionPane.showMessageDialog(null, "Abidon Jude Fernandes - 001013672");
         Coursework prg = new Coursework();
     }
@@ -123,7 +117,7 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
 
         Font fnt = new Font("Arial", Font.PLAIN, 18);
 
-        // Abidon J Fernandes ID: 001013672 contributed to the creation of these three button and the KeyListener
+        // Abidon Jude Fernandes contributed to the creation of these three buttons and the KeyListener.
         button3.addActionListener(this);
         button2.addActionListener(this);
         button1.addActionListener(this);
@@ -135,7 +129,7 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
         JMenuBar menuBar = new JMenuBar();
         JMenu fyle = new JMenu();
 
-        // Abidon J Fernandes ID: 001013672 contributed to the creation of these fyle menubar
+        // Abidon Jude Fernandes contributed to the creation of these menubars.
         fyle.addActionListener(this);
         fyle = new JMenu("File");
         fyle.setToolTipText("File Option");
@@ -162,8 +156,8 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
         courze.add(cc.makeMenuItem("Delete Course", "DeleteCourse", "Delete a Course", fnt));
         menuBar.add(courze);
 
-//Creating a seperate menu for the coursework requirements
-//David Brittain ID: 001026553 contributed to this creation of a menubar and the link fot the coursework requirement
+        //David Brittain contributed to the creation of this menubar and the link for the coursework requirement.
+        //Creating a seperate menu for the coursework requirements
         JMenu CourseReq = new JMenu();
         CourseReq.addActionListener(this);
         CourseReq = new JMenu("Course Requirements");
@@ -173,8 +167,8 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
         CourseReq.add(cc.makeMenuItem("Course", "MATH1111", " NewCourse", fnt));
         menuBar.add(CourseReq);
 
-//                //Hackathon: 3 Display Coursework Deadlines for a chosen Module 
-//                or all modules by semester or by week. = Abidon J Fernandes ID: 001013672
+    //Hackathon Task 3: Display Coursework Deadlines for a chosen Module or all modules by semester or by week. 
+    //Abidon Jude Fernandes contributed to this creation.
         JMenu Deadline = new JMenu();
         Deadline.addActionListener(this);
         Deadline = new JMenu("Check Deadlines");
@@ -211,7 +205,7 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
 
         JToolBar toolBar = new JToolBar();
 
-        // Abidon J Fernandes ID: 001013672 contributed to the creation of these three icon buttons
+        // Abidon Jude Fernandes contributed to the creation of these three icon buttons using the icon folder.
         JButton button = null;
         button1 = cc.makeNavigationButton("Documents", "Open",
                 "Open a Note",
@@ -247,7 +241,7 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
         toolBar.add(button);
         toolBar.addSeparator();
 
-        // This forces anything after it to the right.
+        // This forces these buttons to appear on the right.
         toolBar.add(Box.createHorizontalGlue());
         search.setMaximumSize(new Dimension(6900, 30));
         search.setFont(fnt);
@@ -321,8 +315,8 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
 
     @Override
     public void actionPerformed(ActionEvent ae) {
-//                //Hackathon: 3 Display Coursework Deadlines for a chosen Module 
-//                or all modules by semester or by week. = Abidon J Fernandes ID: 001013672
+    //Hackathon Task 3: Display Coursework Deadlines for a chosen Module or all modules by semester or by week. 
+    //Abidon Jude Fernandes contributed to this creation.
         if ("SaveModule".equals(ae.getActionCommand())) {
 
             String path = cc.appDir + cc.fileSeparator + "Deadlines" + cc.fileSeparator + "ModuleDeadlines.txt";
@@ -343,15 +337,15 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
             txtNewNote.setText("");
         }
 
-        // Abidon J Fernandes ID: 001013672 contributed to the creation of this edit combobox sub-menubar
-        //http://www.java2s.com/Tutorial/Java/0240__Swing/AddItemstoJComboBox.html
+         //Abidon Jude Fernandes contributed to the creation of this edit combobox sub-menubar.
+        //Inspiration was based on http://www.java2s.com/Tutorial/Java/0240__Swing/AddItemstoJComboBox.html
         if ("EditCourse".equals(ae.getActionCommand())) {
             courseList.setEditable(true);
             courseList.addActionListener(this);
 
         }
 
-        // Abidon J FernandeS ID: 001013672 contributed to the creation of this delete combobox sub-menubar
+         //Abidon Jude Fernandes contributed to the creation of this delete combobox sub-menubar.
         if ("DeleteCourse".equals(ae.getActionCommand())) {
             String m = JOptionPane.showInputDialog(null, "Erase your Course of Choice");
             courseList.removeItem(m);
@@ -367,9 +361,8 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
             courseList.addItem(q);
             crse = courseList.getSelectedItem().toString();
 
-            /*Abidon J Fernandes ID: 001013672 contributed to the creation of saving 
-      any created course in a text file format inside the Course folder */
-            //https://stackoverflow.com/questions/3634853/how-to-create-a-directory-in-java
+            //Abidon Jude Fernandes contributed to the creation of saving any created course in a text file format inside the Course folder.
+            //Inspiration was based on https://stackoverflow.com/questions/3634853/how-to-create-a-directory-in-java
             String z = cc.appDir + cc.fileSeparator + "Course" + cc.fileSeparator + "crse.txt";
 
             File f = new File(z);
@@ -387,8 +380,7 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
             txtDisplayNotes.setText(lyst);
         }
 
-        /*Abidon J Fernandes ID: 001013672 contributed to the creation of saving 
-      any notes in a text file format inside any selected Course folder */
+        //Abidon Jude Fernandes contributed to the creation of saving any notes in a text file format inside any selected Course folder.
         if ("SaveNote".equals(ae.getActionCommand())) {
 
             String path = cc.appDir + cc.fileSeparator + crse + cc.fileSeparator + "Notes.txt";
@@ -404,10 +396,10 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
 
         }
 
-        /*Abidon J Fernandes ID: 001013672 contributed to the creation this read open dialog file */
-        //https://www.caveofprogramming.com/java/java-file-reading-and-writing-files-in-java.html
+        //Abidon Jude Fernandes contributed to the creation of this read open dialog file.
+        //Inspiration was based on https://www.caveofprogramming.com/java/java-file-reading-and-writing-files-in-java.html
         if ("OpenFile".equals(ae.getActionCommand())) {
-            //This code here creates a dialog box using a jFileChooser then gets the file once selected and makes a path to it.
+            //This code here creates a dialog box using a JFileChooser then gets the file once selected and makes a path to it.
             JFileChooser chooser = new JFileChooser();
             chooser.showOpenDialog(null);
             File f = chooser.getSelectedFile();
@@ -432,10 +424,10 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
 
         }
 
-//David Brittain ID: 001026553 contributed to this section of Coursework Requirement
-//Attempt at creating a list in textbox by David Brittain
-//http://tutorials.jenkov.com/java-collections/list.html
-//create list for requirements
+//David Brittain contributed to the creation of this Coursework Requirement
+//Attempt at creating a list in textbox.
+//Inspiration was based on http://tutorials.jenkov.com/java-collections/list.html
+//Create a list for coursework requirements
         if ("MATH1111".equals(ae.getActionCommand())) {
             LinkedList Deadlines = new LinkedList();
             Deadlines.add("MATH1111 - 22/03/2019");
@@ -443,8 +435,8 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
             Deadlines.add("COMP1771 - 04/04/2019");
         }
 
-        //Hackathon: 3 Display Coursework Deadlines for a chosen Module 
-// or all modules by semester or by week. = Abidon J Fernandes ID: 001013672
+    //Hackathon Task 3: Display Coursework Deadlines for a chosen Module or all modules by semester or by week. 
+    //Abidon Jude Fernandes contributed to this creation.
         if ("OpenDeadlines".equals(ae.getActionCommand())) {
             String strDeadline = JOptionPane.showInputDialog(null, "Input your Coursework Details ");
             int reply = JOptionPane.showConfirmDialog(null, "Are you want to continue", "Deadline Notification", JOptionPane.YES_NO_OPTION);
@@ -461,11 +453,9 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
             System.exit(0);
         }
 
-        /*Abidon J Fernandes. ID: 001013672. = Contribution.
-        This opens up a save as dialog where you can save your notes in a text file format 
-        anywhere you like and you have the ability to create folders for your course, 
-        coursework requirement, project etc.. and save the text file in them. */
-        //https://stackoverflow.com/questions/15939903/create-a-save-save-as-dialog-box-in-java-that-save-a-newly-created-file-or-an-ed
+        //Abidon Jude Fernandes contributed to the creation of this which opens up a Save As dialog where you can save your notes in a text file format 
+        //anywhere you like, and you have the ability to create folders for your course, coursework requirement, project etc.. and save the text file in them.
+        //Inspiration was based on https://stackoverflow.com/questions/15939903/create-a-save-save-as-dialog-box-in-java-that-save-a-newly-created-file-or-an-ed
         if (ae.getSource() == button3) {
 // This is the Main Component of the dialog
             FileDialog fDialog = new FileDialog(frame, "Save As", FileDialog.SAVE);
@@ -480,10 +470,9 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
                 Logger.getLogger(Coursework.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
-        /*Abidon J Fernandes ID: 001013672 contributed to the creation of saving 
-      a temporarily note in a text file format inside the Coursework folder */
-//https://stackoverflow.com/questions/9961292/write-to-text-file-without-overwriting-in-java
-//https://stackoverflow.com/questions/46438359/saving-jtextarea-to-a-txt-file-with-a-button#
+        //Abidon Jude Fernandes contributed to the creation of saving a temporarily note in a text file format inside the Coursework folder.
+        //Inspiration was based on https://stackoverflow.com/questions/9961292/write-to-text-file-without-overwriting-in-java
+        //Inspiration was based on https://stackoverflow.com/questions/46438359/saving-jtextarea-to-a-txt-file-with-a-button#
         if (ae.getSource() == button2) {
             //Creates a file
             File log = new File("TEMP.txt");
@@ -502,14 +491,13 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
             }
         }
 
-        /*Abidon J Fernandes. ID: 001013672. = Contribution.
-        This opens up a file dialog where you can open up any text files you desire
-        and onces selected it will be displayed on your notes .
-        It has the ability to create folders so you can save notes in there afterwards.
-           https://www.codejava.net/java-se/swing/show-simple-open-file-dialog-using-jfilechooser
-        https://www.youtube.com/watch?v=T_T9U8Djles */
+        //Abidon Jude Fernandes contributed to the creation of this Opens Up file dialog where you can open up any text files you desire
+        //and onces selected it will be displayed on your notes section.
+        //It has the ability to create folders so you can save notes in there afterwards.
+        //Inspiration was based on https://www.codejava.net/java-se/swing/show-simple-open-file-dialog-using-jfilechooser
+        //Inspiration was based on https://www.youtube.com/watch?v=T_T9U8Djles
         if (ae.getSource() == button1) {
-//This code here creates a dialog box using a jFileChooser then gets the file once selected and makes a path to it.
+        //This code here creates a dialog box using a JFileChooser then gets the file once selected and makes a path to it.
             JFileChooser chooser = new JFileChooser();
             chooser.showOpenDialog(null);
             File f = chooser.getSelectedFile();
