@@ -1,4 +1,4 @@
-//Attempt at displaying deadlines by David
+//Attempt at displaying deadlines by David Brittain
 
 //Inspiration based on https://stackoverflow.com/questions/16418108/displaying-a-list-of-records-in-a-message-dialog
  
