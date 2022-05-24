@@ -1,9 +1,8 @@
 # Year 1 Projects
 
-## Second Term
-
 Created two small coursework projects
 
+## Second Term Modules
 ### Object-Oriented Programming
 Notebook
 
