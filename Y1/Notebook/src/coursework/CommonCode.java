@@ -20,7 +20,7 @@ import javax.swing.JMenuItem;
 
 /**
  *
- * @author Abidon
+ * @author Abidon Jude Fernandes
  *
  */
 public class CommonCode {
@@ -39,7 +39,6 @@ public class CommonCode {
     public String ukDate;
     public String usDate;
 
-    // These are some useful items.
     public final String userName = System.getProperty("user.name");
     public final String appDir = System.getProperty("user.dir");
     public final String os = System.getProperty("os.name");
@@ -127,10 +126,9 @@ public class CommonCode {
         return ukDateAndTime;
     }
 
-    // This reads a text file into an ArrayList of Strings.  The path to the
-    // file has to be added.  Use appDir if the files are in the application 
-    // directory.  Use fileSeperator if the app may be running under a 
-    // different OS.
+    // This writes to a text file using an ArrayList of Strings.
+    // Use appDir if the files are in the application directory.
+    // Use fileSeperator if the app may be running under a different OS.
     public ArrayList<String> readTextFile(String fileName) {
         ArrayList file = new ArrayList();
         String line;
@@ -158,13 +156,10 @@ public class CommonCode {
         return file;
     }
 
-    // This writes to a text file using an ArrayList of Strings.  The path to the
-    // file has to be added.  Use appDir if the files are in the application 
-    // directory.  Use fileSeperator if the app may be running under a 
-    // different OS.
+    // This writes to a text file using an ArrayList of Strings.
+    // Use appDir if the files are in the application directory.
+    // Use fileSeperator if the app may be running under a different OS.
     /**
-     * Change the contents of text file in its entirety, overwriting any
-     * existing text.
      *
      * @param fn
      * @param aContents
