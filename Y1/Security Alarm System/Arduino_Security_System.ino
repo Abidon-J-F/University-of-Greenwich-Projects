@@ -1,4 +1,4 @@
-//Based on https://howtomechatronics.com/projects/arduino-security-alarm-system-project/ project
+//Inspiration based on https://howtomechatronics.com/projects/arduino-security-alarm-system-project/ project
 
 #include <LiquidCrystal.h> // includes the LiquidCrystal Library 
 #include <Keypad.h> // includes the Keypad Library
