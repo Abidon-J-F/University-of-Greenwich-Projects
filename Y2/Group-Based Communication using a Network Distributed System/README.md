@@ -27,26 +27,18 @@ In Ubuntu/Linux:
 
 ## Coursework Project Tasks
 
+Created a centralised server implementation to accommodate a peer-to-peer netcode command line program using UTF-8 encoding.
+III.	 Developed a server to client connection-based program with a client and server class.
+IV.	 Created the Client main class to inherit the Server class, allowing it to send message to and from. Both the Server and Client class are composed of global variable S, which is used to store connections of all users within the server. 
+V.	 Created the Server main class called receive_message allows the listening of any specified port that the user inputs. It uses a IPV4 address and a TDP over UDP connection because TDP is more reliable as it confirms the connection before sending the information.
+VI.	 Developed that any users connected to a server receives a unique ID is assigned to each other, a port it will listen into, IP address number, a port and IP address number of one of the existing members.
+VII.	 Developed that every user can message each of the connected members or the whole group in the server.
+VIII.	 Developed the system to display all the currently connected members in your server.
+IX.	 Created the command CTRL+C that every user can use to exit the client anytime.
 
-# NOTEBOOK
-
-Created a notebook GUI program to record notes for university lectures, business conferences and anything in general as a group project.
-
-### Contribution to this project:
-- Abidon Jude Fernandes
-- David Brittain
-
-## Coursework Project Tasks
-
-Created the notebook program to record notes and classify them by modules, topic, and date. Added a search bar the user can use to search useful pieces of information.
 
 **Programmed the notebook to do the following tasks:**
 1. Adding a module to the list of existing modules and creating a folder for it.
-2. Adding a list of coursework requirements expected for each module.
-3. Adding a list of requirements for a specific coursework.
-4. Adding notes to each requirement 
-5. Adding deadlines dates for each coursework.
-6. Outputting those notes as a text document file in their appropriate folder so that it can imported into a word-processed document.
 
-**JAVA version 8 and the NetBeans IDE was utilised in making of this project.**
-Utilised Python, PyQt5, socket, select, errno, sys, tkinter, unittest
+
+**Python programming language, the PyCharm IDE, and PyQt5, socket, select, errno, sys, tkinter and unittest libraries was utilised in making of this project.**
