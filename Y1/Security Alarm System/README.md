@@ -53,4 +53,4 @@ The AVR flowchart is a general visualisation of how the code above should functi
 
 
 
-**Utilised Arduino IDE with C programming language, Atmel studio IDE with AVR programming language, and LiquidCrystal and Keypad Arduino libraries in this project**
+**Utilised Arduino IDE with C programming language, Atmel studio IDE with AVR programming language, and LiquidCrystal and Keypad Arduino libraries in this project.**
