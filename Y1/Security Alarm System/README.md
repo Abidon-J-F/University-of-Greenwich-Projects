@@ -19,7 +19,7 @@ Created the LCD monitor to contain two options which are Activate and Monitor. T
 
 We decided to create an alarm using the Arduino, by adding several modules, such as an LCD, ultrasonic sensor, keypad and a buzzer. The ultrasonic sensor has two function;
 
-Function one: Set Alarm <br />
+Function One: Set Alarm <br />
 We created an Active option which sets the alarm by activating the ultrasonic sensor after five seconds. If it detects anything in its 30cm and 180-degree radius it will activate the alarm buzzer which will ring continuously and activate the Atmel AVR red light which will flash red light continuously. The only way to deactivate the alarm buzzer and the flashing red light gets is if you input the right numerical code on the keypad which is 1111, and if you fail to input the correct code you must wait 3 seconds to try again.
 
 Function Two: Measure Distance <br />
