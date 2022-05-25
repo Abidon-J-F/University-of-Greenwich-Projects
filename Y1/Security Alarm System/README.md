@@ -15,13 +15,12 @@ Inspiration was based on https://howtomechatronics.com/projects/arduino-security
 Created the LCD monitor to contain two options which are Activate and Monitor. The Arduino is linked to the Atmel AVR board using logic gates.
 
 **Created the security alarm system to do the following tasks:**
-- We decided to create an alarm using the Arduino, by adding several modules, such as an LCD, ultrasonic sensor, keypad and a buzzer. The ultrasonic sensor has two function;
+We decided to create an alarm using the Arduino, by adding several modules, such as an LCD, ultrasonic sensor, keypad and a buzzer. The ultrasonic sensor has two function;
 
-- Function one: Set Alarm
-
+Function one: Set Alarm
 We created an Active option which sets the alarm by activating the ultrasonic sensor after five seconds. If it detects anything in its 30cm and 180-degree radius it will activate the alarm buzzer which will ring continuously and activate the Atmel AVR red light which will flash red light continuously. The only way to deactivate the alarm buzzer and the flashing red light gets is if you input the right numerical code on the keypad which is 1111, and if you fail to input the correct code you must wait 3 seconds to try again.
 
-- Function Two: Measure Distance
+Function Two: Measure Distance
 We created a Monitor option that activates the ultrasonic sensor to detect any objects in its 30cm 180-degree radius.  It measures the distance between the object and the ultrasonic sensor, calculates the distance, and displays the distance in centimetres and inches on the LCD monitor. 
 
 AVR: The concept of the AVR board was to act as a flashing LED system to compliment the Arduino’s alarm system. While the AVR board has its own setup, it requires input via specified pins along a port, eliminating the need for IDC-10 connection to the Arduino. This allows the input to the specified port to be digital and nullify the need for data type conversion. Once the alarm system on the Arduino board has been triggered (via the ultrasonic sensor), a signal is sent to one AVR pin, triggering the LEDs to flash. This repeats endlessly until a second pin is triggered, resetting the LEDs (turning them off).
