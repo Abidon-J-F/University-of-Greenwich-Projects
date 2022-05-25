@@ -6,7 +6,7 @@
 - Ronnelle Muia
 - Abidon Jude Fernandes
 
-The following program can be run as a server or a client via the command line. 
+The following program can be run as a server or a client via the command line prompt. 
 
 In Windows:
 1. Access the directory containing the program file.
