@@ -18,4 +18,4 @@ Created the notebook program to record notes and classify them by modules, topic
 5. Adding deadlines dates for each coursework.
 6. Outputting those notes as a text document file in their appropriate folder so that it can imported into a word-processed document.
 
-**JAVA version 8 and the NetBeans IDE was utilised in making of this project.**
+**JAVA version 8 programming language and the NetBeans IDE was utilised in making of this project.**
