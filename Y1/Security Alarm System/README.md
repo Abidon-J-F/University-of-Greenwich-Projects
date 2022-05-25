@@ -19,10 +19,10 @@ Created the LCD monitor to contain two options which are Activate and Monitor. T
 
 We decided to create an alarm using the Arduino, by adding several modules, such as an LCD, ultrasonic sensor, keypad and a buzzer. The ultrasonic sensor has two function;
 
-Function One: Set Alarm <br />
+**Function One: Set Alarm** <br />
 We created an Active option which sets the alarm by activating the ultrasonic sensor after five seconds. If it detects anything in its 30cm and 180-degree radius it will activate the alarm buzzer which will ring continuously and activate the Atmel AVR red light which will flash red light continuously. The only way to deactivate the alarm buzzer and the flashing red light gets is if you input the right numerical code on the keypad which is 1111, and if you fail to input the correct code you must wait 3 seconds to try again.
 
-Function Two: Measure Distance <br />
+**Function Two: Measure Distance** <br />
 We created a Monitor option that activates the ultrasonic sensor to detect any objects in its 30cm 180-degree radius.  It measures the distance between the object and the ultrasonic sensor, calculates the distance, and displays the distance in centimetres and inches on the LCD monitor. 
 
 
@@ -31,7 +31,7 @@ We created a Monitor option that activates the ultrasonic sensor to detect any o
 This here is our final product for the Arduino section. <br />
 ![Arduino Security Alarm System](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y1/Security%20Alarm%20System/Arduino.jpg) <br />
 
-This base contains an Arduino Mega Motherboard which is connected to a 9V Battery which powers the system and makes it portable. The motherboard is linked to a Breadboard via jumper wires which then distributes power and functionality to the Ultrasonic Sensor, 4x4 Keypad, LCD, Active Buzzer, Potentiometer (10k) and a Button which is all connected to the Motherboard and the Breadboard using male to female wires and jumper wires. We used Arduino IDE software and coded our Security System in C Programming Language and used a USB cable to transfer the code from the computer into the Arduino Mega Motherboard https://www.arduino.cc/en/main/software.
+This base contains an Arduino Mega Motherboard which is connected to a 9V Battery which powers the system and makes it portable. The motherboard is linked to a Breadboard via jumper wires which then distributes power and functionality to the Ultrasonic Sensor, 4x4 Keypad, LCD, Active Buzzer, Potentiometer (10k) and a Button which is all connected to the Motherboard and the Breadboard using male to female wires and jumper wires. We used Arduino IDE software and coded our Security System in C Programming Language and used a USB cable to transfer the code from the computer into the Arduino Mega Motherboard https://www.arduino.cc/en/main/software. <br />
 
 The Ardunio flowchart is self-explanatory. <br />
 
