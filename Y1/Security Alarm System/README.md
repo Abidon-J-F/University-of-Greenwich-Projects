@@ -31,7 +31,6 @@ Arduino: This here is our final product for the Arduino section. This base conta
 Arduino Implemenation
 PDF flowchart...
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 
@@ -42,7 +41,6 @@ From this point, the program waits for specific pins to receive input ‘0’ to
 The flowchart to the right is a general visualisation of how the code above should function. The program is supposed to run endlessly as its inputs are based off an Arduino board, hence the ‘Loop’ sub routine constantly calling itself.
 After the Loop is called, the program waits for input in either pin 01 or 04. Since 01 is supposed to trigger the LED flashing via the ‘com LEDs’ function, it is tested first. If it receives input, it calls the delay function to wait for a duration before testing the input again.
 If the pin 01 hasn’t received input, then it tests pin 04 (the reset pin). If 04 is activated, it loads hex FF to the LEDs, turning them ‘off’ akin to the start of the program. If not, the program will continue to wait for input.
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
