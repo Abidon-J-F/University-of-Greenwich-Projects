@@ -14,26 +14,29 @@ Inspiration was based on https://howtomechatronics.com/projects/arduino-security
 
 Created the LCD monitor to contain two options which are Activate and Monitor. The Arduino is linked to the Atmel AVR board using logic gates.
 
+
 **Created the security alarm system to do the following tasks:**
+
 We decided to create an alarm using the Arduino, by adding several modules, such as an LCD, ultrasonic sensor, keypad and a buzzer. The ultrasonic sensor has two function;
 
-Function one: Set Alarm
+Function one: Set Alarm <br />
 We created an Active option which sets the alarm by activating the ultrasonic sensor after five seconds. If it detects anything in its 30cm and 180-degree radius it will activate the alarm buzzer which will ring continuously and activate the Atmel AVR red light which will flash red light continuously. The only way to deactivate the alarm buzzer and the flashing red light gets is if you input the right numerical code on the keypad which is 1111, and if you fail to input the correct code you must wait 3 seconds to try again.
 
-Function Two: Measure Distance
+Function Two: Measure Distance <br />
 We created a Monitor option that activates the ultrasonic sensor to detect any objects in its 30cm 180-degree radius.  It measures the distance between the object and the ultrasonic sensor, calculates the distance, and displays the distance in centimetres and inches on the LCD monitor. 
+
 
 AVR: The concept of the AVR board was to act as a flashing LED system to compliment the Arduino’s alarm system. While the AVR board has its own setup, it requires input via specified pins along a port, eliminating the need for IDC-10 connection to the Arduino. This allows the input to the specified port to be digital and nullify the need for data type conversion. Once the alarm system on the Arduino board has been triggered (via the ultrasonic sensor), a signal is sent to one AVR pin, triggering the LEDs to flash. This repeats endlessly until a second pin is triggered, resetting the LEDs (turning them off).
 
 Arduino: This here is our final product for the Arduino section. This base contains an Arduino Mega Motherboard which is connected to a 9V Battery which powers the system and makes it portable. The motherboard is linked to a Breadboard via jumper wires which then distributes power and functionality to the Ultrasonic Sensor, 4x4 Keypad, LCD, Active Buzzer, Potentiometer (10k) and a Button which is all connected to the Motherboard and the Breadboard using male to female wires and jumper wires. We used Arduino IDE software and coded our Security System in C Programming Language and used a USB cable to transfer the code from the computer into the Arduino Mega Motherboard https://www.arduino.cc/en/main/software.
 
-Arduino Implemenation
+Arduino Implemenation <br />
 PDF flowchart...
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Arduino Security System Flowchart](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/tree/main/Y1/Security%20Alarm%20System/Arduino Security System Flowchart.jpg?raw=true)
 
 
 
-AVR Implementation
+AVR Implementation <br />
 The code to the left is an alteration of simple flashing LED program provided by user: ‘SteveN’ from the site AvrFreaks. Since AVR’s logic gates sets its LEDs off when loaded with a 1, the program sets the zero flag to the ‘Temp’ variable before loading it with hexadecimal ‘FF’, to effectively ‘turn off’ all LEDs its outputting to.
 From this point, the program waits for specific pins to receive input ‘0’ to trigger corresponding commands. After input to either pin, the program triggers the delay subroutine before jumping back to the loop subroutine to test inputs. This allows the LEDs to flash for long enough to see.
 
