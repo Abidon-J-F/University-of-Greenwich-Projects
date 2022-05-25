@@ -6,9 +6,9 @@
 - Ronnelle Muia
 - Abidon Jude Fernandes
 
-The following program can be run as a server or a client via command line. 
+The following program can be run as a server or a client via the command line. 
 
-In windows:
+In Windows:
 1. Access the directory containing the program file.
 2. Run the file as "Server.py" to run the server.
 3. To run the client, run the program in another cmd prompt "Client.py".
