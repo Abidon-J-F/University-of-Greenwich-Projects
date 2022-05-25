@@ -1,6 +1,6 @@
 # Security Alarm System
 
-Created a security alarm system program using C programming language in the Arduino IDE and AVR for the Atmel AVR board device as a group project.
+Created a security alarm system program using C programming language in the Arduino IDE and AVR for the Atmel AVR board as a group project.
 
 Inspiration was based on https://howtomechatronics.com/projects/arduino-security-alarm-system-project/
 
