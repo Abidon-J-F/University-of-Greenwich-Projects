@@ -32,7 +32,7 @@ Arduino: This here is our final product for the Arduino section. This base conta
 
 Arduino Implemenation <br />
 PDF flowchart...
-![Arduino Security System Flowchart](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/tree/main/Y1/Security%20Alarm%20System/Arduino%20Security%20System%20Flowchart.jpg?raw=true)
+![Arduino Security System Flowchart](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y1/Security%20Alarm%20System/Arduino%20Security%20System%20Flowchart.jpeg)
 
 
 
