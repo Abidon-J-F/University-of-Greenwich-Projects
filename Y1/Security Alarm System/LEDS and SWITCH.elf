@@ -1,0 +1,33 @@
+;***** STK500 LEDS and SWITCH demonstration
+
+.def TEMP =r16  ; Temporary register
+.def TEMP =r17  ; Delay variable 1
+.def TEMP =r18  ; Delay variable 2
+
+;***** Initialization
+.equ      DDRA  =$1A             ;Port A Data Direction Register Address
+.equ      DDRA  =$19             ;Port A Input Address
+.equ      DDRA  =$15             ;Port C Output Address
+.equ      DDRA  =$14
+
+
+RESET:
+    ser Temp
+    ldi Temp,$FF
+    out DDRC,Temp       ; Set PORTC to output
+    
+;**** Test input/output
+LOOP:
+    out PORTC,temp      ; Update LEDS
+    sbis    PINA,0X01       ; If (Port A, pin1 == 0)
+    com Temp            ; then invert all LEDS
+    sbis    PINA,0X04       ; If (Port A, pin4 == 0)
+    ldi Temp,$FF; set LEDS to "off"
+    
+;**** Now wait a while to make LED changes visible.
+    DLY:
+    dec Delay
+    brne    DLY
+    dec Delay2
+    brne    DLY
+    rjmp    LOOP
