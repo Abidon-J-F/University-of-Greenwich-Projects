@@ -1,6 +1,6 @@
 # Year 2 Projects
 
-Created three medium coursework projects
+Created three coursework projects
 
 ## First Term Modules
 ### Computer Algorithms and Modelling
