@@ -71,7 +71,7 @@ public class Coursework extends JFrame implements ItemListener, MenuListener, Ac
 
     public static void main(String[] args) {
         // This is required for the coursework project.
-        JOptionPane.showMessageDialog(null, "Abidon Jude Fernandes - 001013672");
+        JOptionPane.showMessageDialog(null, "Your Name - ID Number");
         Coursework prg = new Coursework();
     }
 
