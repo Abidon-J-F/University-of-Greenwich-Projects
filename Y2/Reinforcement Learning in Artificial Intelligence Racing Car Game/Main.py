@@ -7,9 +7,7 @@ Car collision => reward = -1, otherwise => reward = 0.
 You can train this RL by using LOAD = False, after training, this model will be store in the a local folder.
 Using LOAD = True to reload the trained model for playing.
 
-You can customize this script in a way you want.
-
-View more on [莫烦Python] : https://morvanzhou.github.io/tutorials/
+Inspiration was based on [莫烦Python] : https://morvanzhou.github.io/tutorials/
 
 Requirement:
 pyglet >= 1.2.4
