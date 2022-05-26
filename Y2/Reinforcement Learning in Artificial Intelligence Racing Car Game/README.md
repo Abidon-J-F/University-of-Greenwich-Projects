@@ -25,7 +25,7 @@ Create a simple AI project using the Python programming language and the PyCharm
 
 **Fun Fact:** Actor class controls how your agents behave like a policy-based system. A Critic class measures how good the actions the actor has contributed are and this is a value-based system. They both work together and help improve one another. <br />
 
-![Actor and Critic class](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Security%20Alarm%20System/Arduino.jpg) <br />
+![Actor and Critic class](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Actor_and_Critic.png) <br />
 
 ## Experiments Conducted
 The basis of our tests were to determine the fewest number of episodes required to explore with the most amount of steps before exploitation began. 
