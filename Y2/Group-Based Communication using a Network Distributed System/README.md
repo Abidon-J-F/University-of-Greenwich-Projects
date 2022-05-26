@@ -27,18 +27,19 @@ In Ubuntu/Linux:
 
 ## Coursework Project Tasks
 
-Created a centralised server implementation to accommodate a peer-to-peer netcode command line program using UTF-8 encoding.
-III.	 Developed a server to client connection-based program with a client and server class.
-IV.	 Created the Client main class to inherit the Server class, allowing it to send message to and from. Both the Server and Client class are composed of global variable S, which is used to store connections of all users within the server. 
-V.	 Created the Server main class called receive_message allows the listening of any specified port that the user inputs. It uses a IPV4 address and a TDP over UDP connection because TDP is more reliable as it confirms the connection before sending the information.
-VI.	 Developed that any users connected to a server receives a unique ID is assigned to each other, a port it will listen into, IP address number, a port and IP address number of one of the existing members.
-VII.	 Developed that every user can message each of the connected members or the whole group in the server.
-VIII.	 Developed the system to display all the currently connected members in your server.
-IX.	 Created the command CTRL+C that every user can use to exit the client anytime.
+Develop a client to server connection-based program with a client and server class.
 
 
-**Programmed the notebook to do the following tasks:**
-1. Adding a module to the list of existing modules and creating a folder for it.
+**Accomplishment:**
+1. Created a centralised server implementation to accommodate a peer-to-peer netcode command line program using UTF-8 encoding.
+2. Developed a server to client connection-based program with a client and server class.
+3. Created the Client main class to inherit the Server class, allowing it to send message to and from. Both the Server and Client class are composed of global variable S, which is used to store connections of all users within the server.
+4. Created the Server main class called receive_message allows the listening of any specified port that the user inputs. It uses a IPV4 address and a TDP over UDP connection because TDP is more reliable as it confirms the connection before sending the information.
+5. Developed that any users connected to a server receives a unique ID is assigned to each other, a port it will listen into, IP address number, a port and IP address number of one of the existing members.
+6. Developed that every user can message each of the connected members or the whole group in the server.
+7. Developed the system to display all the currently connected members in your server.
+8. Created the command CTRL+C that every user can use to exit the client anytime.
 
 
-**Python programming language, the PyCharm IDE, and PyQt5, socket, select, errno, sys, tkinter and unittest libraries was utilised in making of this project.**
+## Software
+**Utilised Python programming language, the PyCharm IDE, and PyQt5, socket, select, errno, sys, tkinter and unittest libraries in this project.**
