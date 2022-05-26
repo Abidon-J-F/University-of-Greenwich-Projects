@@ -1,6 +1,6 @@
 # Year 1 Projects
 
-Created two small coursework projects
+Created two coursework projects
 
 ## Second Term Modules
 ### Object-Oriented Programming
