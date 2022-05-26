@@ -14,7 +14,7 @@ public class Main {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                JOptionPane.showMessageDialog(null, "your name - id number");
+                JOptionPane.showMessageDialog(null, "Your Name Here - ID Number");
                 Coursework cw = new Coursework();
             }
 
