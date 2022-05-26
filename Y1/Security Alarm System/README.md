@@ -12,7 +12,8 @@ Inspiration was based on https://howtomechatronics.com/projects/arduino-security
 
 ## Coursework Project Tasks
 
-Created the LCD monitor to contain two options which are Activate and Monitor. The Arduino is linked to the Atmel AVR board using logic gates.
+Create a small project using the Arduino and Atmel Studio IDE. Using C programming language in Arduino and low-level programming language in Atmel, create a complex project by using multiple Arduino components and code the functionality of the program into the Arduino motherboard and Atmel AVR board.
+
 
 
 **Created the security alarm system to do the following tasks:**
@@ -25,8 +26,9 @@ We created an Active option which sets the alarm by activating the ultrasonic se
 **Function Two: Measure Distance** <br />
 We created a Monitor option that activates the ultrasonic sensor to detect any objects in its 30cm 180-degree radius.  It measures the distance between the object and the ultrasonic sensor, calculates the distance, and displays the distance in centimetres and inches on the LCD monitor. 
 
+**Simple Explanation:** We created the LCD monitor to contain two options which are Activate and Monitor. The Arduino is linked to the Atmel AVR board using logic gates.
 
-
+## Implemenation Stage
 **Arduino Implemenation** <br />
 This here is our final product for the Arduino section. <br />
 ![Arduino Security Alarm System](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y1/Security%20Alarm%20System/Arduino.jpg) <br />
@@ -52,5 +54,5 @@ From this point, the program waits for specific pins to receive input ‘0’ to
 The AVR flowchart is a general visualisation of how the code above should function. The program is supposed to run endlessly as its inputs are based off an Arduino board, hence the ‘Loop’ sub routine constantly calling itself. After the Loop is called, the program waits for input in either pin 01 or 04. Since 01 is supposed to trigger the LED flashing via the ‘com LEDs’ function, it is tested first. If it receives input, it calls the delay function to wait for a duration before testing the input again. If the pin 01 hasn’t received input, then it tests pin 04 (the reset pin). If 04 is activated, it loads hex FF to the LEDs, turning them ‘off’ akin to the start of the program. If not, the program will continue to wait for input. 
 
 
-
+## Software
 **Utilised Arduino IDE with C programming language, Atmel studio IDE with AVR programming language, and LiquidCrystal and Keypad Arduino libraries in this project.**
