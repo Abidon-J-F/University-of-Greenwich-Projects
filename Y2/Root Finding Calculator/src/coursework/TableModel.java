@@ -1,19 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pkg001013672_comp1555_coursework;
+package coursework;
 
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 
 /**
  *
- * @author Abidon
+ * @author Abidon Jude Fernandes
  */
-//Useless Lines of Code. Suggestion: Ignore
-//https://stackoverflow.com/questions/2937991/create-tablemodel-and-populate-jtable-dynamically
+//Useless Lines of Code because it does not connect to the Table class. Suggestion: Ignore it
+//Inspiration was based on https://stackoverflow.com/questions/2937991/create-tablemodel-and-populate-jtable-dynamically
 public class TableModel {
 
 /*
