@@ -180,7 +180,7 @@ public class MainPanel extends JPanel implements ActionListener, KeyListener {
                 System.out.print("Secant e^x-3x Array Stored Value: " + sc3[i] + " " + " \n");
             }
 
-            //Stores the vlaue ina linked list. 
+            //Stores the value in a linked list. 
             //Inspiration was based on https://www.geeksforgeeks.org/linked-list-in-java/
             LinkedList<String> llist = new LinkedList<String>();
             llist.addFirst(NR1);
