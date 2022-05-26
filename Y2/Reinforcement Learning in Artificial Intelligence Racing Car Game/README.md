@@ -50,7 +50,9 @@ Alterations made e.g. number of sensors, sensor length, speed of car etc. were m
 
 ## Result
 This video here is the final product. <br />
-![Project CARS](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Project_CARS.mp4) <br />
+![Project CARS](https://user-images.githubusercontent.com/106085589/170594727-c9f79cc5-f7d5-4c18-870e-785ed0335358.MP4) <br />
+
+
 
 
 ## Software
