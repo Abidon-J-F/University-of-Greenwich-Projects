@@ -8,7 +8,7 @@ Created a notebook GUI program to record notes for university lectures, business
 
 ## Coursework Project Tasks
 
-Create a notebook program to record notes and classify them by modules, topic, and date.
+Create a notebook program using JAVA 8 in the NetBeans IDE to record notes and classify them by modules, topic, and date.
 
 **Created the notebook to do the following tasks:**
 1. Record notes and classify them by modules, topic, and date.
