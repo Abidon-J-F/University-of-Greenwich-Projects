@@ -1,15 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pkg001013672_comp1555_coursework;
+package coursework;
 
 import java.text.DecimalFormat;
 
 /**
  *
- * @author Abidon
+ * @author Abidon Jude Fernandes
  */
 public class NewtonRaphson {
 
