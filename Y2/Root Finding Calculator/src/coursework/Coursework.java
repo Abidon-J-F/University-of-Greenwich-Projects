@@ -1,4 +1,4 @@
-package pkg001013672_comp1555_coursework;
+package coursework;
 
 import java.awt.BorderLayout;
 import java.awt.Font;
@@ -11,10 +11,8 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author Abidon
+ * @author Abidon Jude Fernandes
  */
-/*To understand Java Programming i got help from the University Lectures, Tutorials, 
-Udemy, Codecademy, javatpoint, w3schools adn the Oracle java documentation page*/
 public class Coursework extends JFrame implements ActionListener, KeyListener {
 
     private JComboBox fq;
@@ -42,7 +40,7 @@ public class Coursework extends JFrame implements ActionListener, KeyListener {
 
         add(answer, BorderLayout.CENTER);
 
-        // Retrieves the data from the Elistenr class and sets the data to the TextArea
+        // Retrieves the data from the EListener class and sets the data to the JTextArea
         mp.setEListener(new EListener() {
             @Override
             public void actionPerformed(EventPanel ae) {
