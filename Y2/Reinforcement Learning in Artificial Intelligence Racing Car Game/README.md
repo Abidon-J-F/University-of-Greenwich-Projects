@@ -47,12 +47,10 @@ Alterations made e.g. number of sensors, sensor length, speed of car etc. were m
 
 
 
-**Arduino Security System Flowchart** <br /> 
-![Arduino Security System Flowchart](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y1/Security%20Alarm%20System/Arduino%20Security%20System%20Flowchart.jpeg) <br /> 
 
 ## Result
 This video here is the final product. <br />
-
+![Project CARS](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Project_CARS.mp4) <br />
 
 
 ## Software
