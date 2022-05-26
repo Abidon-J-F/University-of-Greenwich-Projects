@@ -62,4 +62,4 @@ This video here is the final product. Click the link please :) <br />
 
 
 ## Software
-**Python programming language, the PyCharm IDE, and TensorFlow, Pyglet, NumPy libraries in this project.** 
+**Utilised Python programming language, the PyCharm IDE, and TensorFlow, Pyglet, NumPy libraries in this project.** 
