@@ -1,3 +1,4 @@
+#Inspiration was based on [莫烦Python] : https://morvanzhou.github.io/tutorials/
 import numpy as np
 
 def intersection():
