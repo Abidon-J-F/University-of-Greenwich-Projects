@@ -12,7 +12,7 @@ Inspiration was based on https://howtomechatronics.com/projects/arduino-security
 
 ## Coursework Project Tasks
 
-Create a program using the Arduino and Atmel Studio IDE. Using C programming language in Arduino and low-level programming language in Atmel, create a complex project by using multiple Arduino components and code the functionality of the program into the Arduino motherboard and Atmel AVR board.
+Create a small program using the Arduino and Atmel Studio IDE. Using C programming language in Arduino and low-level programming language in Atmel, create a complex project by using multiple Arduino components and code the functionality of the program into the Arduino motherboard and Atmel AVR board.
 
 
 
