@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pkg001013672_comp1555_coursework;
+package coursework;
 
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
@@ -25,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Abidon
+ * @author Abidon Jude Fernandes
  */
 public class MainPanel extends JPanel implements ActionListener, KeyListener {
 
@@ -185,7 +180,8 @@ public class MainPanel extends JPanel implements ActionListener, KeyListener {
                 System.out.print("Secant e^x-3x Array Stored Value: " + sc3[i] + " " + " \n");
             }
 
-            //Stores the vlaue ina linked list. https://www.geeksforgeeks.org/linked-list-in-java/
+            //Stores the vlaue ina linked list. 
+            //Inspiration was based on https://www.geeksforgeeks.org/linked-list-in-java/
             LinkedList<String> llist = new LinkedList<String>();
             llist.addFirst(NR1);
             llist.add(NR2);
@@ -204,7 +200,7 @@ public class MainPanel extends JPanel implements ActionListener, KeyListener {
             }
         }
 
-        //Useless lines of code. Suggesting: Ignore 
+        //Useless lines of code because it does not connect to the table class. Suggestion: Ignore it
         if (ae.getSource() == tbbtn) {
             /*  String min = minField.getText();
             String max = maxField.getText();
@@ -233,7 +229,7 @@ public class MainPanel extends JPanel implements ActionListener, KeyListener {
             //   model.addRow(cols);
         }
 
-        //Useless line of code. Suggesting: Ignore 
+        //Useless lines of code because it does not connect to the graph class. Suggestion: Ignore it
         if (ae.getSource() == gpbtn) {
 
         }
