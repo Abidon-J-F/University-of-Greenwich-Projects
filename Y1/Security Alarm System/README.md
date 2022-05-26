@@ -15,8 +15,7 @@ Inspiration was based on https://howtomechatronics.com/projects/arduino-security
 Create a small program using the Arduino and Atmel Studio IDE. Using C programming language in Arduino and low-level programming language in Atmel, create a complex project by using multiple Arduino components and code the functionality of the program into the Arduino motherboard and Atmel AVR board.
 
 
-
-**Created the security alarm system to do the following tasks:**
+**Accomplishment:**
 
 We decided to create an alarm using the Arduino, by adding several modules, such as an LCD, ultrasonic sensor, keypad and a buzzer. The ultrasonic sensor has two function;
 
