@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pkg001013672_comp1555_coursework;
+package coursework;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -15,10 +10,10 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Abidon
+ * @author Abidon Jude Fernandes
  */
-//Useless Lines of Code: Suggestion: Ignore
-//http://forum.codecall.net/topic/70235-solvedhelp-plotting-a-function-on-a-graph/
+//Useless lines of code because the graph cannot connect to the main class: Suggestion: Ignore it
+//Inspiration was based on http://forum.codecall.net/topic/70235-solvedhelp-plotting-a-function-on-a-graph/
 public class PlotGraph extends JPanel {
 
    /* int size;
@@ -67,7 +62,7 @@ public class PlotGraph extends JPanel {
             x1 = x2;
             y1 = y2;
         }
-        //This is where I need help, I'm almost completely lost. The function has to be plotted in red
+        
 
     }
 
