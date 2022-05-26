@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pkg001013672_comp1555_coursework;
+package coursework;
 
 /**
  *
- * @author Abido
+ * @author Abidon Jude Fernandes
  */
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
@@ -19,7 +14,7 @@ public class Main {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                JOptionPane.showMessageDialog(null, "Abidon Jude Fernandes - 001013672");
+                JOptionPane.showMessageDialog(null, "your name - id number");
                 Coursework cw = new Coursework();
             }
 
