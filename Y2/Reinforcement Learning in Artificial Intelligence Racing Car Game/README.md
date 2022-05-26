@@ -23,15 +23,14 @@ Create a simple AI project using the Python programming language and the PyCharm
 6. Created a Viewer Class to give the user the power to observe the race and see if the AI car is learning to overcome its failure when driving around the racing track to become perfect or is it just exploiting the reward system for its own benefit by going around in circles.
 7. Used the Pyglet library to physically draw the racing track course, screen background, and car on the screen.
 
-**Fun Fact:** Actor class controls how your agents behave like a policy-based system. A Critic class measures how good the actions the actor has contributed are and this is a value-based system. They both work together and help improve one another. <br />
+**Fun Fact:** Actor class controls how your agent behave like a policy-based system. A Critic class measures how good the actions the actor has contributed are and this is a value-based system. They both work together and help improve one another. <br />
 
 ![Actor and Critic class](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Actor_and_Critic.png) <br />
 
 ## Experiments Conducted
 The basis of our tests were to determine the fewest number of episodes required to explore with the most amount of steps before exploitation began. 
 
-Each test conducted were under various environmental adaptations and
-characteristic alterations, including:
+Each test conducted were under various environmental adaptations and characteristic alterations, including:
 - Exploration Rate
 - Learning Rate
 - Neural Network alterations
@@ -47,13 +46,13 @@ Alterations made e.g. number of sensors, sensor length, speed of car etc. were m
 Depreciating exploration value of initial environment. Exploitation began after 50 episodes and maximised after 137 episodes. <br />
 
 ![Exploration value of in final environment (200+ep)](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Exploration%20in%20final%20env%20Episode%20200%2B%20Graph.png) <br />
-Depreciating exploration value of final environment (parameters are consistent). Exploitation began after 45 episodes and maximised after 149 episodes <br />
+Depreciating exploration value of final environment (parameters are consistent). Exploitation began after 45 episodes and maximised after 149 episodes. <br />
 
 ![Exploration value of in final environment (Optimised speed)](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Exploration%20in%20Final%20env%20Graph%20Optimised%20Speed.jpeg) <br />
-Depreciating exploration value of final environment (Car’s travelling speed was set to an optimal learning rate). Exploitation began after 48 episodes and maximised after 113 episodes <br />
+Depreciating exploration value of final environment (Car’s travelling speed was set to an optimal learning rate). Exploitation began after 48 episodes and maximised after 113 episodes. <br />
 
 ![Exploration value of in final environment (Increased sensors)](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Exploration%20in%20Final%20env%20Graph%20Increased%20Sensors.jpeg) <br />
-Depreciating exploration value of final environment (Number of car sensors increased to 15). Exploitation began after 58 episodes and maximised after 200 episodes <br />
+Depreciating exploration value of final environment (Number of car sensors increased to 15). Exploitation began after 58 episodes and maximised after 200 episodes. <br />
 
 ## Result
 This video here is the final product. Click the link please :) <br />
@@ -61,5 +60,4 @@ This video here is the final product. Click the link please :) <br />
 
 
 ## Software
-**Python programming language, the PyCharm IDE, and TensorFlow, Pyglet, NumPy libraries in this project.**
- 
+**Python programming language, the PyCharm IDE, and TensorFlow, Pyglet, NumPy libraries in this project.** 
