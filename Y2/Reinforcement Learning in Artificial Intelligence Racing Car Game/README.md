@@ -23,6 +23,37 @@ Create a simple AI project using the Python programming language and the PyCharm
 6. Created a Viewer Class to give the user the power to observe the race and see if the AI car is learning to overcome its failure when driving around the racing track to become perfect or is it just exploiting the reward system for its own benefit by going around in circles.
 7. Used the Pyglet library to physically draw the racing track course, screen background, and car on the screen.
 
+**Fun Fact:** Actor class controls how your agents behave like a policy-based system. A Critic class measures how good the actions the actor has contributed are and this is a value-based system. They both work together and help improve one another. <br />
+
+![Actor and Critic class](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Security%20Alarm%20System/Arduino.jpg) <br />
+
+## Experiments Conducted
+The basis of our tests were to determine the fewest number of episodes required to explore with the most amount of steps before exploitation began. 
+
+Each test conducted were under various environmental adaptations and
+characteristic alterations, including:
+- Exploration Rate
+- Learning Rate
+- Neural Network alterations
+- Environment Manipulation
+
+Changes to the environment included adding more obstacles to avoid.
+
+Alterations made e.g. number of sensors, sensor length, speed of car etc. were made to affect the learning rate of the algorithm.
+
+![Arduino Security Alarm System](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y1/Security%20Alarm%20System/Arduino.jpg) 
+
+## Outcomes
+
+
+
+**Arduino Security System Flowchart** <br /> 
+![Arduino Security System Flowchart](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y1/Security%20Alarm%20System/Arduino%20Security%20System%20Flowchart.jpeg) <br /> 
+
+## Result
+This video here is the final product. <br />
+
+
 
 ## Software
 **Python programming language, the PyCharm IDE, and TensorFlow, Pyglet, NumPy libraries in this project.**
