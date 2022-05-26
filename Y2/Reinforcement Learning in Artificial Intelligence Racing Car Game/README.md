@@ -41,18 +41,23 @@ Changes to the environment included adding more obstacles to avoid.
 
 Alterations made e.g. number of sensors, sensor length, speed of car etc. were made to affect the learning rate of the algorithm.
 
-![Arduino Security Alarm System](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y1/Security%20Alarm%20System/Arduino.jpg) 
 
 ## Outcomes
+![Exploration value of in base environment](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Exploration%20value%20base%20env%20Graph.jpeg) <br />
+Depreciating exploration value of initial environment. Exploitation began after 50 episodes and maximised after 137 episodes. <br />
 
+![Exploration value of in final environment (200+ep)](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Exploration%20in%20final%20env%20Episode%20200%2B%20Graph.png) <br />
+Depreciating exploration value of final environment (parameters are consistent). Exploitation began after 45 episodes and maximised after 149 episodes <br />
 
+![Exploration value of in final environment (Optimised speed)](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Exploration%20in%20Final%20env%20Graph%20Optimised%20Speed.jpeg) <br />
+Depreciating exploration value of final environment (Car’s travelling speed was set to an optimal learning rate). Exploitation began after 48 episodes and maximised after 113 episodes <br />
 
+![Exploration value of in final environment (Increased sensors)](https://github.com/Abidon-J-F/University-of-Greenwich-Projects/blob/main/Y2/Reinforcement%20Learning%20in%20Artificial%20Intelligence%20Racing%20Car%20Game/Exploration%20in%20Final%20env%20Graph%20Increased%20Sensors.jpeg) <br />
+Depreciating exploration value of final environment (Number of car sensors increased to 15). Exploitation began after 58 episodes and maximised after 200 episodes <br />
 
 ## Result
-This video here is the final product. <br />
+This video here is the final product. Click the link please :) <br />
 ![Project CARS](https://user-images.githubusercontent.com/106085589/170594727-c9f79cc5-f7d5-4c18-870e-785ed0335358.MP4) <br />
-
-
 
 
 ## Software
