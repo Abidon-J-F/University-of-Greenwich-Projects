@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pkg001013672_comp1555_coursework;
+package coursework;
 
 import java.awt.BorderLayout;
 import javax.swing.JFrame;
@@ -13,11 +8,11 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Abidon
+ * @author Abidon Jude Fernandes
  */
-//Useless lines of code. Suggesting: Ignore
-//https://stackoverflow.com/questions/21135452/how-to-add-row-of-data-to-jtable-from-values-received-from-jtextfield-and-combob
-//https://stackoverflow.com/questions/47445700/how-to-add-data-to-jtable-from-textfield-value-saved-in-an-arraylist
+//Useless lines of code because it does not connect to the main class. Suggestion: Ignore it
+//Inspiration was based on https://stackoverflow.com/questions/21135452/how-to-add-row-of-data-to-jtable-from-values-received-from-jtextfield-and-combob
+//Inspiration was based on https://stackoverflow.com/questions/47445700/how-to-add-data-to-jtable-from-textfield-value-saved-in-an-arraylist
 public class Table extends JPanel {
     /* 
     private JFrame JFrame;
