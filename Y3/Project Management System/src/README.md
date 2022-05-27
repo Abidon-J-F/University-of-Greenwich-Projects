@@ -1,4 +1,4 @@
-# COMP 1815 JVM Programming Languages
+# JVM Programming Languages
 
 ### Welcome to our coursework, in the following classes you will find the following code in the following classes:
 
