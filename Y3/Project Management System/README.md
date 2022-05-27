@@ -1,4 +1,4 @@
-# JVM Programming Languages
+# Project Management System
 
 Created a project management system using Kotlin as back-end and JAVA as front-end as a group project.
 
@@ -25,7 +25,7 @@ Create a system to provide the following functionality:
 5. Integrated the critical path component from Kotlin into the project management process in Java, so that when a project is edited, the critical path is automatically calculated and the duration and finishing date are updated. 
 
 
-### Welcome to our coursework, in the following classes you will find the following code in the following classes:
+### Welcome to our JVM Programming Languages Coursework, in the following classes you will find the following code in the following classes:
 
 - Project: holds the logic and structure for the projects, including tasks and teams that are included.
 - Task: structure for a task, holds a description, duration, and link to the project it belongs to.
