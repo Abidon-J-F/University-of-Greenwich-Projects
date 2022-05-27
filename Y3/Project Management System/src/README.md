@@ -1,10 +1,28 @@
 # JVM Programming Languages
+
 Created a project management system using Kotlin as back-end and JAVA as front-end as a group project.
+
+### Contribution to this project:
+- Abidon Jude Fernandes
+- Sean Daley
+- Fredrick
+
+## Coursework Project Tasks
+Create a system to provide the following functionality:
+- Set up projects
+- Set up teams
+- Divide projects into tasks
+    -  Duration and sequence of tasks can be defined (a task can have none, one or more successor tasks)
+    -  Each task is assigned to particular team 
+- Register task progress. Project progress can be tracked 
 
 
 **Accomplishment:**
-
-
+1. Created a desktop application with a graphical user interface to enable project managers to set up projects, manage teams and record progress on tasks.
+2. Created a domain and entity classes in Kotlin that create an object-oriented structure and is integrated the Java GUI application.
+3. Created a persistence for the project, team, and task data, and saved the data in a CSV or ACCDB file. Then utilised Lambdas expressions to manage collections of data all in Kotlin and integrated into the Java GUI.
+4. Implemented an object-oriented component called the critical path which uses a longest path algorithm in Kotlin that calculates the duration and finishing date of a project using the longest path for (based on its critical path) when provided with a project object.
+5. Integrated the critical path component from Kotlin into the project management process in Java, so that when a project is edited, the critical path is automatically calculated and the duration and finishing date are updated. 
 
 
 ### Welcome to our coursework, in the following classes you will find the following code in the following classes:
@@ -25,4 +43,6 @@ Created a project management system using Kotlin as back-end and JAVA as front-e
 
 Enjoy!
 
-## Accomplishment:
+
+## Software
+**Utilised JAVA version 13, Kotlin and Scala programming languages and the Intellij IDEA IDE in this project.**
