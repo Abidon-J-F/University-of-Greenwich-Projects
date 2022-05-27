@@ -1,4 +1,4 @@
-# TT
+# Sentiment Analysis of Tweets using RNN
 
 Created a RNN (LSTM, GRU, Bidirectional LSTM, and Bidirectional GRU) models to detect positive and negative text messages from Twitter as a group project.
 
@@ -8,7 +8,7 @@ Created a RNN (LSTM, GRU, Bidirectional LSTM, and Bidirectional GRU) models to d
 - Sean Daly
 
 ## Coursework Project Tasks
-
+Choose an AI topic and it gets approved by the teachers. Everyone in the group must investigate the topic from a different perspective (different algorithms used to solve the problem, various problems dealt by the algorithm, the background work done by other researchers, and so forth). Present the finished product in a face-to-face live audience demonstration and write a report explaining your work and perspective you have applied to the finished product.
 
 
 **Accomplishment:**
