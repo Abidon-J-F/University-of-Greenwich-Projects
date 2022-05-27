@@ -1,4 +1,11 @@
 # JVM Programming Languages
+Created a project management system using Kotlin as back-end and JAVA as front-end as a group project.
+
+
+**Accomplishment:**
+
+
+
 
 ### Welcome to our coursework, in the following classes you will find the following code in the following classes:
 
@@ -7,9 +14,9 @@
 - Team: holds the team’s name and a list of projects assigned to that team.
 - programHandler: contains a list of all the projects held in the program, as well as the main method, save and load methods. Save method includes lambda expressions!
 - Coursework: main panel GUI that presents all the information to the user about a selected project. Anything with "\_gui" on the end is a sub-menu used to create instance of the same name.
-- critical_path: critical path algorithm in Kotlin, works with small projects, may not work with larger ones
-- crit_path_scala: critical path in Scala, unfortunately does not work, uncomment to see code
-- Projects.csv: The csv file holding project information, used for persistence
+- critical_path: critical path algorithm in Kotlin, works with small projects, may not work with larger ones.
+- crit_path_scala: critical path in Scala, unfortunately does not work, uncomment to see code (DO NOT INSTALL SCALA as of 27/05/2022, there is a bug which will prevent you from running this program).
+- Projects.csv: The csv file holding project information, used for persistence.
 
 ## PLEASE NOTE:
 - All dates must be in the format of YYYY-MM-DD, it’s how LocalDate likes it.
@@ -17,3 +24,5 @@
 - Make sure to spell task and team names THE same as shown.
 
 Enjoy!
+
+## Accomplishment:
