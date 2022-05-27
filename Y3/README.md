@@ -15,6 +15,5 @@ Project Management System
 Handwriting Recognition using CRNN
 
 
-# Final Year Individual Project
-## Using a Recurrent Neural Network Architectures with Support Vector Machine to Detect False Information
-Group-Based Communication using a Network Distributed System
+## Final Year Individual Project
+### Using a Recurrent Neural Network Architectures with Support Vector Machine to Detect False Information
