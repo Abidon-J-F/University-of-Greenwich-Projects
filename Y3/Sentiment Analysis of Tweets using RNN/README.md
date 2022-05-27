@@ -20,9 +20,9 @@ Choose an AI topic and it gets approved by the teachers. Everyone in the group m
 6. Conclusion, the Bi-GRU model performed best in speed and simplicity with it having 2 internal gates over the Bi-LSTM with its 3 gates, but it is less accurate by 5-10% margin. The LSTM and GRU models underperformed due to the model being outdated.
 
 ## Findings
-- Bi-directional performs better than the one directional implementations.
+- BI-Directional performs better than the one directional implementations.
 - Two layers is enough to create accurate models.
-- GLOVE (just about) performed better than word2vec.
+- GLOVE (just about) performed better than Word2Vec.
 - GRU performs quicker, but drops accuracy. Does less training as it takes the number of times a word is used into account.
 - LSTM performs better in the long run. Does more training as it doesn’t take in to account the number of times a word is used and just creates more training data.
 - A recommendation for performing sentiment analysis on tweets would be to use GLOVE with a GRU network. Since tweets are limited to 280 characters, tweets are not going to be large so the stamina problem that GRU has is not too problematic.
