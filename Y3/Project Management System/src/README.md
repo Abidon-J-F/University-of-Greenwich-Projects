@@ -4,8 +4,8 @@ Created a project management system using Kotlin as back-end and JAVA as front-e
 
 ### Contribution to this project:
 - Abidon Jude Fernandes
-- Sean Daley
-- Fredrick
+- Sean Daly
+- Fredrick W
 
 ## Coursework Project Tasks
 Create a system to provide the following functionality:
