@@ -112,10 +112,10 @@ public class Coursework extends JFrame implements ActionListener{
 
         txtInfoArea.setEditable(false);
 
-        //Explanation for gridlayout is on yt and the oracle website.
-        //https://www.youtube.com/watch?v=ZipG38DJJK8
-        //https://docs.oracle.com/javase/tutorial/uiswing/layout/grid.html
-        //https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html
+        //Explanation for the gridlayout is on yt and the oracle website.
+        //Inspiration was based on https://www.youtube.com/watch?v=ZipG38DJJK8
+        //Inspiration was based on https://docs.oracle.com/javase/tutorial/uiswing/layout/grid.html
+        //Inspiration was based on https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html
         gbc = new GridBagConstraints();
         gbc.insets = new Insets(15,15, 15, 15);
 
