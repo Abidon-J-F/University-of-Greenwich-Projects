@@ -23,9 +23,11 @@ Choose an AI topic and it gets approved by the teachers. Everyone in the group m
 - BI-Directional performs better than the one directional implementations.
 - Two layers is enough to create accurate models.
 - GLOVE (just about) performed better than Word2Vec.
-- GRU performs quicker, but drops accuracy. Does less training as it takes the number of times a word is used into account.
-- LSTM performs better in the long run. Does more training as it doesn’t take in to account the number of times a word is used and just creates more training data.
-- A recommendation for performing sentiment analysis on tweets would be to use GLOVE with a GRU network. Since tweets are limited to 280 characters, tweets are not going to be large so the stamina problem that GRU has is not too problematic.
+- BI-GRU performs quicker, but drops accuracy. Does less training as it takes the number of times a word is used into account.
+- BI-LSTM performs better in the long run. Does more training as it doesn’t take in to account the number of times a word is used and just creates more training data.
+- A recommendation for performing sentiment analysis on tweets would be to use GLOVE with a BI-GRU network. Since tweets are limited to 280 characters, tweets are not going to be large so the stamina problem that BI-GRU has is not too problematic.
+
+The 10 epochs results showed us that the Bi-LSTM model performed slow but better in detecting emotions when it came to accuracy, but the Bi-GRU was quicker and had a minor accuracy loss in difference when compared to Bi-LSTM. In the end me and my team went with the Bi-GRU model because it was quicker than the Bi-LSTM model in speed. The 100 epochs test done on both models showed us that overfitting occurs in a complex model when paired with a small dataset since the model does not learn but memorises, this results in the accuracy and loss increasing over time. The downside to our model was that our dataset was skewed because we did not balance out the positive and negative dataset. Since the model did not have an equal amount of information of positive and negative tweets to train on, and most of the information was favouring the negative side. This resulted in our model understanding the negative emotions more compared to the positive emotions in any Twitter tweets.
 
 ## Software
 **Utilised Python programming language in Anaconda Distribution Navigator, Jupyter Notebook IDE, and Pandas, NumPy, TensorFlow, Keras, Matplotlib, NLTK, Scikit-lean libraries in this project.**
