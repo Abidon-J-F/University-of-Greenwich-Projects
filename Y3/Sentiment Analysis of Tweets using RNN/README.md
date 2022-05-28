@@ -5,7 +5,7 @@ Created a RNN (LSTM, GRU, Bidirectional LSTM, and Bidirectional GRU) models to d
 ### Contribution to this project:
 - Abidon Jude Fernandes
 - Ashley James Walker
-- Sean Daly
+- Sean Daniel Daly
 
 ## Coursework Project Tasks
 Choose an AI topic and it gets approved by the teachers. Everyone in the group must investigate the topic from a different perspective (different algorithms used to solve the problem, various problems dealt by the algorithm, the background work done by other researchers, and so forth). Present the finished product in a face-to-face live audience demonstration and write a report explaining your work and perspective you have applied to the finished product.
