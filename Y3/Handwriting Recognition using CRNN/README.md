@@ -1,29 +1,34 @@
 # Handwriting Recognition using CRNN
 
-Created a handwriting recognition using CNN and Bidirectional RNN model together and trained the model in a CTC (connectionist temporal classification) loss and 2 regular CNN with 3 and 5 layers for comparison on which is more accurate.
+Created a handwriting recognition using CNN and Bidirectional RNN model together and trained the model in a CTC (connectionist temporal classification) loss and 2 regular CNN models with 3 and 5 layers for comparison on which is more accurate.
 
 ### Contribution to this project:
 - Abidon Jude Fernandes
 
 ## Coursework Project Tasks
-Choose an AI topic and it gets approved by the teachers. Everyone in the group must investigate the topic from a different perspective (different algorithms used to solve the problem, various problems dealt by the algorithm, the background work done by other researchers, and so forth). Present the finished product in a face-to-face live audience demonstration and write a report explaining your work and perspective you have applied to the finished product.
+Choose an topic to which machine learning can make a significant contribution. After the decision of a topic, each student are expected to 
+- Survey the background of the topic.
+- Define a problem to solve. 
+- Collect or create a dataset. 
+- Select an appropriate machine learning model. 
+- Implement and apply the model and baselines (at least two) to the dataset. 
+- Compare and evaluates the models under an appropriate criterion. 
+- Discuss the results. 
 
 
 **Accomplishment:**
-1. Imported the Twitter airline sentiment dataset from Kaggle and implemented the NLTK library to clean the text of all emojis, punctuations and stopwords so the model can take in only critical information for analysis to detect if it is positive or negative tweets.
-2. Split the dataset to 80% training and 20% testing for efficiency. Implemented the keras library to apply hyper parameters and tokenise the dataset, then hot encoded the labels so it can be processed safely in the pretrained GloVe word embedding layer.
-3. Incorporated a Pretrained GloVe word embedding layer into all the hybrid models to improve the model’s ability to differentiate between negative and positive words in the airline sentiment Twitter tweets, and cluster similar words together into their respective categories.
-4. Developed 4 RNN models with 2 RNN layers of 96 nodes, 2 dropout layers, 2 dense layers of relu and sigmoid activation, binary_crossentropy losses, and Adam optimiser. Trained the RNN models on the CPU on 10 epochs to detect positive and negatives tweets.
-5. Analysed the accuracy, complexity, and performance of the 4 models to see if it is learning from its mistake or just copying the answers. The 4 models were tested by a validation and non-validation accuracy and loss graphs, and a testing class full of multiple emotion-based text messages.
-6. Conclusion, the Bi-GRU model performed best in speed and simplicity with it having 2 internal gates over the Bi-LSTM with its 3 gates, but it is less accurate by 5-10% margin. The LSTM and GRU models underperformed due to the model being outdated.
+1. Loaded the train and valid datasets and used the matplotlib library to apply the necessary parameters to view the handwriting images.
+2. Cleaned the datasets of unreadable images, converted all lowercase labels to uppercase and reset the index.
+3. Established a preprocessing stage where all the images are loaded as grayscale images, reshaped to 256Wx64H, padded small images with white pixels, image is rotated clockwise to become (x, y) shape and is normalised to range [0, 1]. Split the datasets to train and test images sets.
+4. Applied a CTC Loss to provide alignment between sequences where it is difficult for the RNN layer. The labels are converted to integers to represent each character (A-Z, -, ’, and space) and are set at the maximum length of 64 for prediction and accepts 24 for inputs.
+5. Developed a CRNN model consists of 3 CNN layers, reshaped the CNN layer to incorporate Bidirectional LSTM layer, and applied the CTC loss function and trained the model on 60 epochs.
+6. Established a validation class to see how many characters and words were predicted correct in percentage first then for each handwriting images, a validation loss and training loss graph and test, classification report and a confusion matrix was created to see if the model learning or just copying the answers.
+7. Conclusion, the CRNN model with CTC loss outperformed in terms of accuracy by a huge margin against the 3 and 5 CNN layers models due to its complexity.
 
 ## Findings
-- BI-Directional performs better than the one directional implementations.
-- Two layers is enough to create accurate models.
-- GLOVE (just about) performed better than Word2Vec.
-- GRU performs quicker, but drops accuracy. Does less training as it takes the number of times a word is used into account.
-- LSTM performs better in the long run. Does more training as it doesn’t take in to account the number of times a word is used and just creates more training data.
-- A recommendation for performing sentiment analysis on tweets would be to use GLOVE with a GRU network. Since tweets are limited to 280 characters, tweets are not going to be large so the stamina problem that GRU has is not too problematic.
+By observing these results and comparing side by side the CRNN hybrid model to the two baselines models which are the 3 CNN and 5 CNN layers models. The conclusion is that the CRNN fared better when it came to overall words and characters prediction of the alphabets and numbers over the two baselines models. The CRNN has a high accuracy rate when it comes to predicting handwriting images that is difficult to read whereas the two CNN cannot do it accurately enough to get a pass. The downside of using CRNN model is the speed of the model being trained at 2 minutes per epochs whereas the CNN models trained at 7s per epochs but suffers overfitting and has a memorisation issue.
+
+In conclusion, the CRNN hybrid model was a success, and this research provides an excellent in-depth analysis about the styles of writings and how a hybrid model and a loss function can improve the prediction and learning rate of a model. This showed that a hybrid model can used in many settings and can enhance the prediction rate of any given data set.
 
 ## Software
-**Utilised Python programming language in Anaconda Distribution Navigator, Jupyter Notebook IDE, and Pandas, NumPy, TensorFlow, Keras, Matplotlib, NLTK, Scikit-lean libraries in this project.**
+**Utilised Python programming language in Anaconda Distribution Navigator, Jupyter Notebook IDE, and TensorFlow, cv2, NumPy, Pandas, Keras, Matplotlib libraries in this project.**
