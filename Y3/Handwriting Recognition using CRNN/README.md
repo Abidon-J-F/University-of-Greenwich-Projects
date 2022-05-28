@@ -31,4 +31,4 @@ By observing these results and comparing side by side the CRNN hybrid model to t
 In conclusion, the CRNN hybrid model was a success, and this research provides an excellent in-depth analysis about the styles of writings and how a hybrid model and a loss function can improve the prediction and learning rate of a model. This showed that a hybrid model can used in many settings and can enhance the prediction rate of any given data set.
 
 ## Software
-**Utilised Python programming language in Anaconda Distribution Navigator, Jupyter Notebook IDE, and TensorFlow, cv2, NumPy, Pandas, Keras, Matplotlib libraries in this project.**
+**Utilised Python programming language in Anaconda Distribution Navigator, Jupyter Notebook IDE, and TensorFlow, cv2, NumPy, Pandas, Keras, Matplotlib, imutils libraries in this project.**
