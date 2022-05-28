@@ -22,8 +22,8 @@ The two products cycles through 9 stages to detect false information. These stag
 7. Conclusion, the LSTM-SVM model is best suited for fake news detection in news articles with its internal 3 gate system, whereas the GRU-SVM model is best suited for sentiment analysis in text messages on social media applications with its internal 2 gate system.
 
 ## Conclusion
-
-
+**Using a RNN-SVM models for Fake News Detection conclusion:**
+The LSTM-SVM model is the best model to use when trying to detect true or false news articles. This model was able to understand fake news articles and true news articles compared to other models which failed to distinguish between two true and two fake news articles. This model has the benefit of using its three gates to its maximum potential and being a powerful feed-forward neural network. These gates are the input gate which inputs the information, forget gate which discards any biased or low result values, and the output gate which outputs the result combined with the SVM optimal hyperplanes which are designed for the separation of training data without errors and soft margins which allows for an analytic treatment of learning with errors on the training set compared to the Bidirectional models which are complex since it came to goes forward and backward with more training time. In the end, the complexity of this model allows it to differentiate between what news articles are real or fabricated.
 
 ## Software
 **Utilised Python programming language in Anaconda Distribution Navigator, Jupyter Notebook IDE, and TensorFlow, Keras, Scikit-learn, NLTK, NumPy, Pandas, Matplotlib, Wordcloud libraries in this project.**
