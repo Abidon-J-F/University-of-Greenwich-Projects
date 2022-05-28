@@ -1,6 +1,6 @@
 # Guide Sheet
 
-This repository contains all the projects I have done during my time at the University of Greenwich.
+This repository contains all the projects I have done during my time at the University of Greenwich to obtain a BSc (Hons) Computer Science degree.
 
 ## Year 1 Projects
 
