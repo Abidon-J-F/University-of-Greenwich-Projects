@@ -28,4 +28,4 @@ Choose an AI topic and it gets approved by the teachers. Everyone in the group m
 - A recommendation for performing sentiment analysis on tweets would be to use GLOVE with a GRU network. Since tweets are limited to 280 characters, tweets are not going to be large so the stamina problem that GRU has is not too problematic.
 
 ## Software
-**Utilised Python programming language, Google Colab IDE, and Pandas, NumPy, TensorFlow, Keras, Matplotlib, NLTK, Scikit-lean libraries in this project.**
+**Utilised Python programming language in Anaconda Distribution Navigator, Jupyter Notebook IDE, and Pandas, NumPy, TensorFlow, Keras, Matplotlib, NLTK, Scikit-lean libraries in this project.**
