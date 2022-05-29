@@ -41,8 +41,6 @@ Create a system to provide the following functionality:
 - The "task leads from" field in the task creation menu takes in a list of all the tasks that are going to file in to this new one. Simply list them out separated with a comma, no spaces needed (A, B, C etc.). If it’s the first task in a project, just type "null".
 - Make sure to spell task and team names THE same as shown.
 
-Enjoy!
-
 
 ## Software
 **Utilised JAVA version 13, Kotlin and Scala programming languages and the Intellij IDEA IDE in this project.**
