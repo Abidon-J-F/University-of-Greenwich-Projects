@@ -8,6 +8,7 @@ You can train this RL by using LOAD = False, after training, this model will be 
 Using LOAD = True to reload the trained model for playing.
 
 Inspiration was based on [莫烦Python] : https://morvanzhou.github.io/tutorials/
+Inspiration was based on https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/tree/master/experiments/2D_car
 
 Requirement:
 pyglet >= 1.2.4
