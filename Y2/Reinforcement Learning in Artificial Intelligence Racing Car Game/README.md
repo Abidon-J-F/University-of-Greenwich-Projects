@@ -57,7 +57,7 @@ Depreciating exploration value of final environment (Car’s travelling speed wa
 Depreciating exploration value of final environment (Number of car sensors increased to 15). Exploitation began after 58 episodes and maximised after 200 episodes. <br />
 
 ## Result
-This video link to the final product is here. <br />
+The video link to the final product is here. <br />
 ![Project CARS](https://user-images.githubusercontent.com/106085589/170594727-c9f79cc5-f7d5-4c18-870e-785ed0335358.MP4) <br />
 
 
