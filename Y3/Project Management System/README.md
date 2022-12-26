@@ -43,4 +43,4 @@ Create a system to provide the following functionality:
 
 
 ## Software
-**Utilised JAVA version 13, Kotlin and Scala programming languages and the Intellij IDEA IDE in this project.**
+**Utilised JAVA version 13, Kotlin and Scala programming languages and the IntelliJ IDEA IDE in this project.**
