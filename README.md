@@ -17,7 +17,7 @@ This repository contains all the projects I have completed during my time at the
 
 ### Group-Based Communication using a Network Distributed System
 
-### Statistical Techniques with R
+### Tutorial Solutions and a Data Analysis Report
 
 
 ## Year 3 Projects
