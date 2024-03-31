@@ -20,7 +20,7 @@ Solve every tutorial question and complete a data analysis report.
 4. Data plotting with ggplot2.
 5. Exploratory data analyses using R.
 
-### A Data Analysis Report (Part2 Report)
+### A Data Analysis Report (Part2 Report, RPlot, RPlot01, RPlot02)
 #### Used a HSAUR data set. This dataset provides mortality and water hardness for 61 cities in England and Wales.
 #### Key questions answered:
 1. Do either or both variables (mortality and hardness) differ between north and south cities?
