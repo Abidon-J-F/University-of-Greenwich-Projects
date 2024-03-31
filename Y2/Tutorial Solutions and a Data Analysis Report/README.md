@@ -13,7 +13,7 @@ Solve every tutorial question and complete a data analysis report.
 
 ### Tutorial Solutions ()
 #### Used UCLA HSBRAW data set.
-#### Key questions answered:
+#### Key tasks completed:
 1. Importing/exporting data in R.
 2. Quantitatively describing, summarising and plotting data in R environment.
 3. Inferential statistical analyses using R.
@@ -28,4 +28,4 @@ Solve every tutorial question and complete a data analysis report.
 3. Do both variables, mortality and water hardness, also statistically associated in north and south cities, respectively?
 
 ## Software
-**Utilised R programming language, RStudio , R-Tools-----.**
+**Utilised R programming language, RStudio Environment, RTools, devtools, kassambara/ggpubr, tidyselect, ggpubr, magrittr, lifecycle, ggplot2, boxplot, pairedData, fitdistrplus.**
