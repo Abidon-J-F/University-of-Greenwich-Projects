@@ -1,4 +1,5 @@
-#Q5
+#Q5 Exploratory data analyses using R
+
 #importa data and test it
 #install.packages("fitdistrplus")
 library(fitdistrplus)
