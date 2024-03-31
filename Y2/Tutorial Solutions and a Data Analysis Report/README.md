@@ -11,7 +11,7 @@ Solve every tutorial question and complete a data analysis report.
 
 **Accomplishment:**
 
-### Tutorial Solutions ()
+### Tutorial Solutions (Tutorial Week2, 3, 4 and 5, 6, 7)
 #### Used UCLA HSBRAW data set.
 #### Key tasks completed:
 1. Importing/exporting data in R.
@@ -20,7 +20,7 @@ Solve every tutorial question and complete a data analysis report.
 4. Data plotting with ggplot2.
 5. Exploratory data analyses using R.
 
-### A Data Analysis Report ()
+### A Data Analysis Report (Part2 Report)
 #### Used a HSAUR data set. This dataset provides mortality and water hardness for 61 cities in England and Wales.
 #### Key questions answered:
 1. Do either or both variables (mortality and hardness) differ between north and south cities?
