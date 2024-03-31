@@ -13,3 +13,6 @@ Reinforcement Learning in Artificial Intelligence Racing Car Game
 ## Second Term Module
 ### Advanced Programming
 Group-Based Communication using a Network Distributed System
+
+### Statistical Techniques with R
+Tutorial Solutions and a Data Analysis Report
