@@ -28,4 +28,4 @@ Solve every tutorial question and complete a data analysis report.
 3. Do both variables, mortality and water hardness, also statistically associated in north and south cities, respectively?
 
 ## Software
-**Utilised R programming language, RStudio Environment, RTools, devtools, kassambara/ggpubr, tidyselect, ggpubr, magrittr, lifecycle, ggplot2, boxplot, pairedData, fitdistrplus.**
+**Utilised R programming language, RStudio Environment, RTools, devtools, kassambara/ggpubr, tidyselect, ggpubr, magrittr, lifecycle, ggplot2, boxplot, pairedData and fitdistrplus libraries in this project.**
