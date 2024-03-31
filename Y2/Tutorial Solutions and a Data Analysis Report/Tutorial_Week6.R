@@ -1,4 +1,5 @@
 #Q4 Data plotting with ggplot2
+
 #import the data
 school_csv<-read.csv("C:Users/..../R/Week 6/school.csv")
 
