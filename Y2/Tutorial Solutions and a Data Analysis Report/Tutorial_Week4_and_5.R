@@ -1,4 +1,5 @@
-#3)
+#3) Inferential statistical analyses using R
+
 #Part 1 - Comparing means
 #if(!require(devtools)) install.packages("devtools")
 #devtools::install_github("kassambara/ggpubr")
@@ -59,7 +60,7 @@ res$estimate
 res$conf.int
 
 
-#Part 2
+#Part 2 - Paired sample t-tests
 
 # Weight of the mice before treatment
 before <-c(200.1, 190.9, 192.7, 213, 241.4, 196.9, 172.2, 185.5, 205.2, 193.7)
