@@ -1,6 +1,6 @@
 # Main Cycle Tutorial Solutions
 
-Solved every tutorial question and completed a data analysis report.
+Solved every laboratory tutorial question.
 
 ### Contribution to this project:
 - Abidon Jude Fernandes
@@ -9,26 +9,17 @@ Solved every tutorial question and completed a data analysis report.
 
 ## Coursework Project Tasks
 
-Solve every tutorial question and complete a data analysis report.
+Solve every laboratory tutorial question.
 
 **Accomplishment:**
 
-### Tutorial Solutions (Tutorial Week2, 3, 4 and 5, 6, 7)
-#### Used UCLA HSBRAW dataset.
+### Laboratory Tutorial Solutions (Laboratory Week2, 3, 4)
 #### Key tasks completed:
-1. Importing/exporting data in R.
-2. Quantitatively describing, summarising and plotting data in R environment.
-3. Inferential statistical analyses using R.
-4. Data plotting with ggplot2.
-5. Exploratory data analyses using R.
+1. Task 2.1) Variables.
+2. Task 3.1) Basic Calculator, 3.2) Odd/Even file size reader, and 3.3) File Counter. 
+3. Task 4.1) Symbolic Links, and 4.2) Quiz.sh File (Script File).
 
-### A Data Analysis Report (Part2 Report, RPlot, RPlot01, RPlot02)
-#### Used a HSAUR dataset. This dataset provides mortality and water hardness for 61 cities in England and Wales.
-#### Key questions answered:
-1. Do either or both variables (mortality and hardness) differ between north and south cities?
-2. Do mortality and water hardness statistically associated for all the 61 cities?
-3. Do both variables, mortality and water hardness, also statistically associated in north and south cities, respectively?
 
 ## Software
-**Utilised R programming language, RStudio Environment, RTools and devtools, kassambara/ggpubr, tidyselect, ggpubr, magrittr, lifecycle, ggplot2, boxplot, pairedData, fitdistrplus libraries in this project.**
+**Utilised Unix Operating Systems programming language in this project.**
 
