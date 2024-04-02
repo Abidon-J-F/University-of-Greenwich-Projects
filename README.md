@@ -28,6 +28,8 @@ This repository contains all the projects I have completed during my time at the
 
 ### Handwriting Recognition using CRNN
 
+### HCI In-Car Music and Navigation Infotainment System Prototype
+
 
 ## Final Year Individual Project (Y3 Folder)
 ### Using a Recurrent Neural Network Architectures with Support Vector Machine to Detect False Information
