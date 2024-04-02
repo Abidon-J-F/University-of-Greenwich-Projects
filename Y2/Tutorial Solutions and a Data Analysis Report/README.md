@@ -1,6 +1,6 @@
 # Tutorial Solutions and a Data Analysis Report
 
-Solve every tutorial question and complete a data analysis report.
+Solved every tutorial question and completed a data analysis report.
 
 ### Contribution to this project:
 - Abidon Jude Fernandes
