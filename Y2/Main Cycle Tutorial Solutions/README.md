@@ -21,5 +21,5 @@ Solve every laboratory tutorial question.
 
 
 ## Software
-**Utilised Unix Operating Systems programming language in this project.**
+**Utilised Unix and Linux Operating Systems programming language in this project.**
 
