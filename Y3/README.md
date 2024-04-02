@@ -1,6 +1,6 @@
 # Year 3 Projects
 
-Created three coursework projects and 1 final year project with a dissertation backing it.
+Created four coursework projects and 1 final year project with a dissertation backing it.
 
 ## First Term Modules
 ### Artificial Intelligence Applications
@@ -8,6 +8,9 @@ Sentiment Analysis of Tweets using RNN
 
 ### JVM Programming Languages
 Project Management System
+
+### Human-Computer Interaction and Design
+HCI In-Car Music and Navigation Infotainment System Prototype
 
 
 ## Second Term Module
