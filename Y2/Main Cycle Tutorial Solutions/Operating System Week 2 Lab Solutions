@@ -1,0 +1,21 @@
+Task 2.1:
+Variables:
+_start:
+    a:dw 3
+    b:dw 7
+    h:dw 4
+    result:dw 1
+
+Code: 
+    mov word[a], 3
+    mov ax, [a]
+    mov word[b], 7
+    mov bx, [b]
+    mov word[h], 4
+    add ax, bx
+    mov dx, 0
+    mov bx, 2
+    div bx
+    mov bx, [h]
+    mul bx
+    mov word [result], ax
