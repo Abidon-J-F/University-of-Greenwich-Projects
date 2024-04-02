@@ -18,6 +18,13 @@ Task 8) Linux system administration
 16. passwd -l ben
 17. ps -u ben
 18. /etc/inittab
+19. id:3:initdefault:
+20. /etc/default/useradd
+21. HOME=/home/users22. 
+22. /etc/network/interfaces
+23. BOOTPROTO=dchp
+24. /home/mariusz/.bash_profile
+25. export SHELL=/bin/bash
 26. Wavelet Analysis is the breaking down of a wave into lower resolution levels that are easier to analyse. These lower resolution levels are easier to quantify. However, due to Heisenberg’s Uncertainty Principle, the quantified measures of these lower res wavelets in terms of position is near impossible, applying a measure of momentum or velocity only makes the wavelets more uncertain. This is due to naturally occurring measures of uncertainty being so small that they cannot be measured. So, to conclude, although breaking a wave or signal into wavelets may be able to make them easier to analyse, it will never get close to being 100% accurate.
 
 
