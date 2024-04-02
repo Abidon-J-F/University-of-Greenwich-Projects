@@ -1,0 +1,119 @@
+4.1)
+#!/bin/bash
+if [ -L "$1" ] && [ -e "$1" ]
+then
+echo "$1 is a symlink"
+else
+echo "$1 is not a symlink/is a broken symlink"
+fi
+
+
+4.2)
+Quiz.sh File (Script File)
+#!/bin/bash
+#question file argument
+9
+$1=qfile
+#answer file argument
+$2=afile
+#users answers file argument
+$3=ufile
+if [ $# -lt 2 ]
+then
+echo "--------------------INTERACTIVE MODE--------------------"
+#read questions in to array
+declare -a questionArray
+let i=0
+while IFS=$'\n' read -r line_data
+do
+questionArray[i]="${line_data}" # Populate array.
+((++i))
+done < $qfile
+#read answers in to array
+declare -a answerArray
+let j=0
+while IFS=$'\n' read -r line_data
+do
+answerArray[j]="${line_data}" # Populate array.
+((++j))
+done < $afile
+correct=0
+incorrect=0
+for (( c=1; c<=10; c++; ))
+do
+printf "${questionArray[c]}"
+10
+read ans
+if [ answerArray[c]==ans ]
+do
+correct++
+else
+incorrect++
+fi
+echo "$correct correct, $incorrect incorrect"
+if [ $# -lt 3 ]
+then
+echo "-------------------AUTOMATIC MODE--------------------"
+#read answers in to array
+declare -a answerArray
+let k=0
+while IFS=$'\n' read -r line_data
+do
+answerArray[j]="${line_data}" # Populate array.
+((++j))
+done < $afile
+#read users answers in to array
+declare -a userArray
+let k=0
+while IFS=$'\n' read -r line_data
+do
+userArray[j]="${line_data}" # Populate array.
+((++j))
+done < $ufile
+correct=0
+incorrect=0
+11
+for (( c=1; c<=10; c++; ))
+do
+if [ answerArray[c]==userArray[c] ]
+do
+correct++
+else
+incorrect++
+fi
+echo "$correct correct, $incorrect incorrect"
+fi
+Answers.txt
+blue
+mid day
+3
+1
+no
+2000
+25
+3
+yes
+yes
+Questions.txt
+What colour is the sky?
+What time is lunchtime?
+What is 1+2?
+What is 2-1?
+Do I enjoy bash scripting?
+12
+What year was the Millennium?
+What is 5 x 5?
+What is 6 / 2?
+Am I running out of questions?
+Is this the end of the questions?
+User_Answers (Test)
+red
+mid day
+3
+1
+yes
+2001
+25
+3
+no
+yes
