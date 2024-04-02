@@ -1,0 +1,76 @@
+3.1) Basic Calculator
+#!/bin/bash
+#first input is first number
+arg1=$1
+#second input is second number
+arg2=$2
+#third input is the operator
+operator=$3
+result=0
+if [ $operator = "-" ]
+then
+        let result=$(($arg1-$arg2))
+        echo $result
+elif [ $operator = "+" ]
+then
+        let result=$(($arg1+$arg2))
+        echo $result
+elif [ $operator = "*" ]
+then
+        let result=$(($arg1*$arg2))
+        echo $result
+elif [ $operator = "/" ]
+then
+        let result=$(($arg1/$arg2))
+        echo $result
+elif [ $operator = "^" ]
+then
+        let result=$(($arg1**$arg2))
+        echo $result
+else
+        echo"not recognised"
+fi
+
+
+
+3.2) Odd/Even file size reader
+#!/bin/bash
+var1=$1
+var2=$2
+
+for file in $var1/*
+do
+size=$(wc -c <"$file")
+case $var2 in
+odd)
+if (($size%2==1))
+then
+total=$[total+$size]
+fi
+;;
+even)
+if (($size%2==0))
+then
+total=$[total+$size]
+fi
+;;
+esac
+done
+echo "$total"
+
+
+
+3.3) File Counter
+#!/bin/bash
+file=$1
+
+total=0
+#loop through every file in the given folder
+for file in $arg1/*
+do
+((total++))
+#increment total by one
+done
+echo $total
+#print total
+
