@@ -1,6 +1,6 @@
 # Year 3 Projects
 
-Created four coursework projects and 1 final year project with a dissertation backing it.
+Created four coursework projects and 1 final year project for my dissertation.
 
 ## First Term Modules
 ### Artificial Intelligence Applications
