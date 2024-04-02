@@ -1,4 +1,4 @@
-4.1)
+4.1) Symbolic Links
 #!/bin/bash
 if [ -L "$1" ] && [ -e "$1" ]
 then
