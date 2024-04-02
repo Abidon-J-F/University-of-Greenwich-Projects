@@ -1,0 +1,35 @@
+Task 8) Linux system administration
+
+1. /etc/bashrc
+2. export PATH=$PATH:/home/john/bin
+26. Wavelet Analysis is the breaking down of a wave into lower resolution levels that are easier to analyse. These lower resolution levels are easier to quantify. However, due to Heisenberg’s Uncertainty Principle, the quantified measures of these lower res wavelets in terms of position is near impossible, applying a measure of momentum or velocity only makes the wavelets more uncertain. This is due to naturally occurring measures of uncertainty being so small that they cannot be measured. So, to conclude, although breaking a wave or signal into wavelets may be able to make them easier to analyse, it will never get close to being 100% accurate.
+
+
+
+Explanation of each line of code: 
+1)	Redefining existing system variable PATH.
+2)	Redefining a variable PATH to add a path to /home/john/ bin directory.
+3)	Creating a limited maximum number of logins with the security feature command.
+4)	Limiting Mariusz maximum login to 3.
+5)	Adding a new user by the name of Tatiana to the student directory.
+6)	Changing the login name for Mariusz to pmy5.
+7)	Adding Mariusz to the ACL.
+8)	Using chmod 744 to change the current permission for the file /usr/share/ccsm.
+9)	Using the ls -l command to displays files that support ACL.
+10)	Creating a symbolic link from ptr to /usr/share/ccsm using the ln -s function.
+11)	Initialising the setup stage for Clare password change.
+12)	Creating a file path to modify it in order to create a new DNS server.
+13)	Adding system 217.173.13.13 to the DNS server.
+14)	Creating a reminder using a crontab to activate the script every Sunday at 2pm. Crontab (Minute| Hour| Day| Month| Weekday).
+15)	Creating a command to make ben belong to a system group called student and make the file from CentOS system belong to him using the chown command.
+16)	Creating a locking mechanism to lock ben from accessing his account.
+17)	Using ps -u to check what process is being run on ben’s system.
+18)	This code shows you which system runlevel you are on.
+19)	This code changes the runlevel to level 3.
+20)	Changing the default location from /home to /useradd.
+21)	Full breakdown on how the full PATH would look like when changing the location to a new one.
+22)	/etc/network/interfaces allows the Linux server to request any network settings.
+23)	The entry code to allows access to dchp.
+24)	Changing the default shell Korn to BASH.
+25)	How to transference from Korn to BASH line would look like.
+26)	Wavelet Analysis is the breaking down of a wave into lower resolution levels that are easier to analyse. These lower resolution levels are easier to quantify. However, due to Heisenberg’s Uncertainty Principle, the quantified measures of these lower res wavelets in terms of position is near impossible, applying a measure of momentum or velocity only makes the wavelets more uncertain. This is due to naturally occurring measures of uncertainty being so small that they cannot be measured. So, to conclude, although breaking a wave or signal into wavelets may be able to make them easier to analyse, it will never get close to being 100% accurate.
