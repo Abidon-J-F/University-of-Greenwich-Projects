@@ -2,6 +2,22 @@ Task 8) Linux system administration
 
 1. /etc/bashrc
 2. export PATH=$PATH:/home/john/bin
+3. /etc/security/limits.conf
+4. mariusz - maxlogins 3
+5. useradd -s /bin/sh -g students Tatiana
+6. usermod -l mariusz pm75
+7. setfacl -m u:mariusz:r /usr/share/ccsm
+8. chmod 744 /usr/share/ccsm
+9. ls -l
+10. ln -s /usr/share/ccsm ptr
+11. passwd clare
+12. /etc/resolv.conf
+13. nameserver 217.173.13.13
+14. 0 14 * * 7 /usr/share/ccsm
+15. chown ben:student /home/ben/ccsm
+16. passwd -l ben
+17. ps -u ben
+18. /etc/inittab
 26. Wavelet Analysis is the breaking down of a wave into lower resolution levels that are easier to analyse. These lower resolution levels are easier to quantify. However, due to Heisenberg’s Uncertainty Principle, the quantified measures of these lower res wavelets in terms of position is near impossible, applying a measure of momentum or velocity only makes the wavelets more uncertain. This is due to naturally occurring measures of uncertainty being so small that they cannot be measured. So, to conclude, although breaking a wave or signal into wavelets may be able to make them easier to analyse, it will never get close to being 100% accurate.
 
 
