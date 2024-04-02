@@ -1,20 +1,13 @@
-# Project Management System
+# HCI In-Car Music and Navigation Infotainment System Prototype
 
-Created a project management system using Kotlin as back-end and JAVA as front-end as a group project.
+Created HCI In-Car Music and Navigation Infotainment System Prototype using Axure RP.
 
 ### Contribution to this project:
 - Abidon Jude Fernandes
-- Sean Daly
-- Fredrik Wells
+
 
 ## Coursework Project Tasks
-Create a system to provide the following functionality:
-- Set up projects
-- Set up teams
-- Divide projects into tasks
-    -  Duration and sequence of tasks can be defined (a task can have none, one or more successor tasks)
-    -  Each task is assigned to particular team 
-- Register task progress. Project progress can be tracked 
+Create a HCI In-Car Music and Navigation Infotainment System Prototype using Axure RP.
 
 
 **Accomplishment:**
