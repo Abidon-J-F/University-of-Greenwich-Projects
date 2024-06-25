@@ -6,11 +6,13 @@ Created two AI programs to detect true and false information in news articles an
 - Abidon Jude Fernandes
 
 ## Product Stages
-Created Using a RNN-SVM models for Fake News Detection and Using a RNN-SVM models for Sentiment Analysis.
+Created Using 4 RNN-SVM models for Fake News Detection and Using 4 RNN-SVM models for Sentiment Analysis.
 
-Product Project Link: https://www.kaggle.com/abidonjfernandes/code
+Fake News Detection Software Product Project Link: https://www.kaggle.com/code/abidonjfernandes/using-a-rnn-svm-models-for-fake-news-detection
 
-The two products cycles through 9 stages to detect false information. These stages are Load the Data Set, Text Preprocessing, Splitting the Data Set, Tokenisation, Label Encoding, Pretrained GloVe word embedding, Training the four hybrid models, Accuracy Analysis and Testing Class.
+Sentiment Analysis Software Product Project Link: https://www.kaggle.com/code/abidonjfernandes/using-a-rnn-svm-models-for-sentiment-analysis
+
+The two products cycle through 9 stages to detect false information. These stages are Load the Data Set, Text Preprocessing, Splitting the Data Set, Tokenisation, Label Encoding, Pretrained GloVe word embedding, Training the four hybrid models, Accuracy Analysis and Testing Class.
 
 **Accomplishment:**
 1. Imported two separate datasets from Kaggle and used wordcloud and matplotlib library to analysis the information in the dataset. Used this information to eliminate skewed dataset results and reduced its capacity so it is equal.
